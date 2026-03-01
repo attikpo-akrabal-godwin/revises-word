@@ -1,0 +1,725 @@
+{
+    "Business & Work": {
+        "mission statement": {
+            "meanings": [
+                {
+                    "definition": "a formal summary of the aims and values of a company or organization",
+                    "examples": [
+                        "The company's *mission* *statement* emphasizes its commitment to quality."
+                    ]
+                }
+            ],
+            "translation": "déclaration de mission"
+        },
+        "assess": {
+            "meanings": [
+                {
+                    "definition": "to evaluate or estimate the nature, ability, or quality of something",
+                    "examples": [
+                        "The committee must assess the relative importance of the issues."
+                    ]
+                },
+                {
+                    "definition": "to calculate or estimate the value or cost of something",
+                    "examples": [
+                        "The damage was *assessed* at £5 billion."
+                    ]
+                }
+            ],
+            "translation": "évaluer"
+        },
+        "perks": {
+            "meanings": [
+                {
+                    "definition": "benefits received in addition to regular pay",
+                    "examples": [
+                        "Health insurance is one of the job perks ."
+                    ]
+                }
+            ],
+            "translation": "avantages"
+        },
+        "stockbroker": {
+            "meanings": [
+                {
+                    "definition": "a person who buys and sells stocks on behalf of clients",
+                    "examples": [
+                        "He works as a stockbroker at a financial firm."
+                    ]
+                }
+            ],
+            "translation": "courtier en valeurs mobilières"
+        },
+        "venue": {
+            "meanings": [
+                {
+                    "definition": "the place where an event happens",
+                    "examples": [
+                        "The concert venue can hold 5,000 people."
+                    ]
+                }
+            ],
+            "translation": "lieu"
+        },
+        "fulfill": {
+            "meanings": [
+                {
+                    "definition": "to achieve or complete a task, duty, or role satisfactorily",
+                    "examples": [
+                        "The company *fulfilled* its promise."
+                    ]
+                }
+            ],
+            "translation": "remplir"
+        }
+    },
+    "Phrasal Verbs": {
+        "stand out": {
+            "meanings": [
+                {
+                    "definition": "to be easily noticed or clearly better than others",
+                    "examples": [
+                        "She *stands* *out* because of her confidence.",
+                        "This CV will *stand* *out* among the others."
+                    ]
+                }
+            ],
+            "translation": "se démarquer"
+        },
+        "carry out": {
+            "meanings": [
+                {
+                    "definition": "to perform or complete a task or plan",
+                    "examples": [
+                        "The experiment was *carried* *out* successfully."
+                    ]
+                }
+            ],
+            "translation": "effectuer"
+        },
+        "come up": {
+            "meanings": [
+                {
+                    "definition": "to appear or happen unexpectedly",
+                    "examples": [
+                        "An issue *came* *up* during the meeting."
+                    ]
+                },
+                {
+                    "definition": "to be mentioned",
+                    "examples": [
+                        "His name *came* *up* in the discussion."
+                    ]
+                }
+            ],
+            "translation": "survenir"
+        },
+        "point out": {
+            "meanings": [
+                {
+                    "definition": "to draw attention to something",
+                    "examples": [
+                        "She *pointed* *out* a flaw in his argument."
+                    ]
+                }
+            ],
+            "translation": "faire remarquer"
+        },
+        "get by": {
+            "meanings": [
+                {
+                    "definition": "to manage with difficulty",
+                    "examples": [
+                        "He earns just enough money to *get* *by* ."
+                    ]
+                }
+            ],
+            "translation": "s'en sortir"
+        }
+    },
+    "Daily Life": {
+        "withdraw": {
+            "meanings": [
+                {
+                    "definition": "to take money out of a bank",
+                    "examples": [
+                        "I *withdrew* cash from the ATM."
+                    ]
+                },
+                {
+                    "definition": "to remove or stop participating",
+                    "examples": [
+                        "The team *withdrew* from the competition."
+                    ]
+                }
+            ],
+            "translation": "retirer"
+        },
+        "standing next to": {
+            "meanings": [
+                {
+                    "definition": "being located immediately beside someone or something",
+                    "examples": [
+                        "He was *standing* *next* *to* his car."
+                    ]
+                }
+            ],
+            "translation": " à côté de"
+        },
+        "hanging up the phone": {
+            "meanings": [
+                {
+                    "definition": "to end a phone call",
+                    "examples": [
+                        "She *hung* *up* *the* *phone* after the conversation."
+                    ]
+                }
+            ],
+            "translation": "raccrocher le téléphone"
+        },
+        "sheet": {
+            "meanings": [
+                {
+                    "definition": "a large piece of cloth used on a bed",
+                    "examples": [
+                        "She changed the bed *sheets* ."
+                    ]
+                }
+            ],
+            "translation": "drap"
+        },
+        "stationery": {
+            "meanings": [
+                {
+                    "definition": "writing and office materials",
+                    "examples": [
+                        "She bought new *stationery* for school."
+                    ]
+                }
+            ],
+            "translation": "papeterie"
+        },
+        "fares": {
+            "meanings": [
+                {
+                    "definition": "the money paid for public transportation",
+                    "examples": [
+                        "Bus *fares* have increased."
+                    ]
+                }
+            ],
+            "translation": "tarifs,billets"
+        }
+    },
+    "General Vocabulary": {
+        "arouse": {
+            "meanings": [
+                {
+                    "definition": "to cause a feeling or emotion",
+                    "examples": [
+                        "The speech *aroused* strong emotions.",
+                        "something about the man *aroused* the guard's suspicions  (evoke) ",
+                        "I was surprised to find that this look *aroused* me.(excite) "
+                    ]
+                }
+            ],
+            "translation": "éveiller , susciter"
+        },
+        "awoken": {
+            "meanings": [
+                {
+                    "definition": "past participle of awake; to rouse from sleep",
+                    "examples": [
+                        "I was awoken by a loud noise."
+                    ]
+                }
+            ],
+            "translation": "réveillé"
+        },
+        "awkward": {
+            "meanings": [
+                {
+                    "definition": "causing difficulty , hard to do or deal with or embarrassment",
+                    "examples": [
+                        "It was an awkward situation.",
+                        "an awkward task"
+                    ]
+                }
+            ],
+            "translation": "gênant, difficile à gérer"
+        },
+        "crowd": {
+            "meanings": [
+                {
+                    "definition": "a large number of people gathered together",
+                    "examples": [
+                        "Fans *crowded* the streets.",
+                        "Stand out from the crowd"
+                    ]
+                }
+            ],
+            "translation": "foule"
+        },
+        "gathering": {
+            "meanings": [
+                {
+                    "definition": "a meeting of people",
+                    "examples": [
+                        "There was a family gathering ."
+                    ]
+                },
+                {
+                    "definition": "the act of collecting or accumulating something",
+                    "examples": [
+                        "The gathering of data is important for research."
+                    ]
+                },
+                {
+                    "definition": "Understood or inferred without being explicitly stated",
+                    "examples": [
+                        "I have a gathering that he will be late."
+                    ]
+                }
+            ],
+            "translation": "rassemblement, collecte, intuition"
+        },
+        "further": {
+            "meanings": [
+                {
+                    "definition": "additional or more",
+                    "examples": [
+                        "No further action is required."
+                    ]
+                },
+                {
+                    "definition": "to help something develop",
+                    "examples": [
+                        "This course will further your career.",
+                        "the research *furthers* our understanding of AI."
+                    ]
+                },
+                {
+                    "definition": "at a greater distance",
+                    "examples": [
+                        "The village is further than I thought."
+                    ]
+                }
+            ],
+            "translation": "plus loin, promouvoir, supplémentaire"
+        },
+        "odd": {
+            "meanings": [
+                {
+                    "definition": "strange or unusual",
+                    "examples": [
+                        "That's an odd way to solve the problem."
+                    ]
+                }
+            ],
+            "translation": "bizarre, étrange"
+        },
+        "blurred": {
+            "meanings": [
+                {
+                    "definition": "make or become unclear or less distinct (an action that causes something to become less clear or less focused)",
+                    "examples": [
+                        "The image is blurred.",
+                        "the shared screens are blurred",
+                        "the lines of the painting are blurred"
+                    ]
+                }
+            ],
+            "translation": "flou"
+        },
+        "blurry": {
+            "meanings": [
+                {
+                    "definition": "something that is by nature unclear or not in focus (a state or condition of being unclear or not sharp)",
+                    "examples": [
+                        "The photo is blurry ."
+                    ]
+                }
+            ],
+            "translation": "flou"
+        },
+        "buried": {
+            "meanings": [
+                {
+                    "definition": "put or hidden underground",
+                    "examples": [
+                        "The treasure was buried underground.",
+                        "sometimes when you are in the dark place , you think you have been buried but actually you've been plainted"
+                    ]
+                }
+            ],
+            "translation": "enterré"
+        },
+        "clues": {
+            "meanings": [
+                {
+                    "definition": "pieces of evidence used to solve a problem or crime",
+                    "examples": [
+                        "The police found new clues."
+                    ]
+                }
+            ],
+            "translation": "indices"
+        },
+        "quote": {
+            "meanings": [
+                {
+                    "definition": "a citation or repeated statement",
+                    "examples": [
+                        "He ended his speech with a famous quote ."
+                    ]
+                }
+            ],
+            "translation": "citation"
+        },
+        "unfair": {
+            "meanings": [
+                {
+                    "definition": "not just or equitable; not treating people equally",
+                    "examples": [
+                        "The decision was unfair to the employees."
+                    ]
+                }
+            ],
+            "translation": "injuste"
+        },
+        "butt": {
+            "meanings": [
+                {
+                    "definition": "target , the person or thing that is the object of criticism or ridicule",
+                    "examples": [
+                        "your company has started to become the butt of bad jokes at conferences and in the press."
+                    ]
+                }
+            ],
+            "translation": ""
+        },
+        "attempt": {
+            "meanings": [
+                {
+                    "definition": "to try to do something, especially something difficult",
+                    "examples": [
+                        "She *attempted* to climb the mountain."
+                    ]
+                }
+            ],
+            "translation": "tenter"
+        },
+        "within": {
+            "meanings": [
+                {
+                    "definition": "inside the limits of something",
+                    "examples": [
+                        "The answer is within the book."
+                    ]
+                }
+            ],
+            "translation": "à l'intérieur de"
+        },
+        "sloppy": {
+            "meanings": [
+                {
+                    "definition": "not careful or neat in doing something",
+                    "examples": [
+                        "The sloppy handwriting made it hard to read."
+                    ]
+                }
+            ],
+            "translation": "négligent"
+        },
+        "quotation": {
+            "meanings": [
+                {
+                    "definition": "a statement of the price of something",
+                    "examples": [
+                        "The quotation for the project was higher than expected."
+                    ]
+                },
+                {
+                    "definition": "a group of words taken from a text or speech and repeated by someone other than the original author or speaker",
+                    "examples": [
+                        "The book is full of *quotations* from famous authors."
+                    ]
+                }
+            ],
+            "translation": "citation"
+        },
+        "showroom": {
+            "meanings": [
+                {
+                    "definition": "a place where products are displayed for customers to see and buy",
+                    "examples": [
+                        "The car showroom has the latest models on display."
+                    ]
+                }
+            ],
+            "translation": "salle d'exposition"
+        },
+        "At the outset": {
+            "meanings": [
+                {
+                    "definition": "at the beginning of something",
+                    "examples": [
+                        "*At* *the* *outset* of the project, we set clear goals."
+                    ]
+                }
+            ],
+            "translation": "au début"
+        },
+        "to hit the mark ": {
+            "meanings": [
+                {
+                    "definition": "to achieve the desired result or to be successful in doing something",
+                    "examples": [
+                        "The marketing campaign *hit* *the* *mark* and increased sales."
+                    ]
+                }
+            ],
+            "translation": "atteindre l'objectif"
+        },
+        "knock": {
+            "meanings": [
+                {
+                    "definition": "to hit something hard",
+                    "examples": [
+                        "Someone *knocks* at the door"
+                    ]
+                }
+            ],
+            "translation": "battre, frapper"
+        },
+        "involve": {
+            "meanings": [
+                {
+                    "definition": "to include or affect someone or something",
+                    "examples": [
+                        "The project *involves* several departments."
+                    ]
+                }
+            ],
+            "translation": "impliquer"
+        },
+        "evolve": {
+            "meanings": [
+                {
+                    "definition": "to develop gradually, especially from a simple to a more complex form",
+                    "examples": [
+                        "The company has *evolved* over the years."
+                    ]
+                }
+            ],
+            "translation": "évoluer"
+        },
+        "joinery": {
+            "meanings": [
+                {
+                    "definition": "the work of a joiner, especially in making furniture or fittings",
+                    "examples": [
+                        "He works in joinery and makes custom cabinets."
+                    ]
+                }
+            ],
+            "translation": "menuiserie"
+        },
+        "staircases": {
+            "meanings": [
+                {
+                    "definition": "a set of steps leading from one floor to another",
+                    "examples": [
+                        "The building has two staircases for emergency exits."
+                    ]
+                }
+            ],
+            "translation": "escaliers"
+        },
+        "range from … to …": {
+            "meanings": [
+                {
+                    "definition": "to include a variety of things between two limits",
+                    "examples": [
+                        "The prices *range* *from* $10 *to* $100."
+                    ]
+                }
+            ],
+            "translation": "aller de ... à ..."
+        },
+        "spreads": {
+            "meanings": [
+                {
+                    "definition": "to extend over a large area or to cover a wide range",
+                    "examples": [
+                        "The news of the event spreads quickly."
+                    ]
+                }
+            ],
+            "translation": "se répandre"
+        },
+        "forefront": {
+            "meanings": [
+                {
+                    "definition": "the leading or most important position in a particular field or activity",
+                    "examples": [
+                        "The company is at the forefront of technological innovation."
+                    ]
+                }
+            ],
+            "translation": "premier plan"
+        },
+        "reliable": {
+            "meanings": [
+                {
+                    "definition": "consistently good in quality or performance; able to be trusted",
+                    "examples": [
+                        "She is a reliable employee who always meets deadlines."
+                    ]
+                }
+            ],
+            "translation": "fiable"
+        },
+        "relatable": {
+            "meanings": [
+                {
+                    "definition": "able to be related to or understood by someone",
+                    "examples": [
+                        "The character in the movie was relatable to many viewers."
+                    ]
+                }
+            ],
+            "translation": "relatable"
+        },
+        "towards": {
+            "meanings": [
+                {
+                    "definition": "in the direction of something or someone",
+                    "examples": [
+                        "She walked towards the park."
+                    ]
+                }
+            ],
+            "translation": "vers"
+        },
+        "reckon": {
+            "meanings": [
+                {
+                    "definition": "to think or believe something",
+                    "examples": [
+                        "I reckon it's going to rain today."
+                    ]
+                },
+                {
+                    "definition": "to calculate or estimate something",
+                    "examples": [
+                        "The cost is *reckoned* to be around $100."
+                    ]
+                }
+            ],
+            "translation": "penser, estimer , calculer"
+        },
+        "scheme": {
+            "meanings": [
+                {
+                    "definition": "a plan or program of action",
+                    "examples": [
+                        "The government has launched a new scheme to support small businesses."
+                    ]
+                }
+            ],
+            "translation": "plan, programme"
+        },
+        "undertaking": {
+            "meanings": [
+                {
+                    "definition": "a task or project that is taken on",
+                    "examples": [
+                        "The construction of the new bridge is a major undertaking ."
+                    ]
+                }
+            ],
+            "translation": "entreprise, projet"
+        },
+        "Whichever": {
+            "meanings": [
+                {
+                    "definition": "used to indicate that any one of a group of things is acceptable",
+                    "examples": [
+                        "You can choose whichever color you like."
+                    ]
+                }
+            ],
+            "translation": "lequel que ce soit"
+        },
+        "whoever": {
+            "meanings": [
+                {
+                    "definition": "used to refer to any person who does something",
+                    "examples": [
+                        "Whoever is responsible for this mess needs to clean it up."
+                    ]
+                }
+            ],
+            "translation": "quiconque"
+        },
+        "whatever": {
+            "meanings": [
+                {
+                    "definition": "used to indicate that any thing or amount is acceptable",
+                    "examples": [
+                        "You can take whatever you need."
+                    ]
+                }
+            ],
+            "translation": "quoi que ce soit"
+        },
+        "barely": {
+            "meanings": [
+                {
+                    "definition": "only just; almost not",
+                    "examples": [
+                        "She barely passed the exam."
+                    ]
+                }
+            ],
+            "translation": "à peine"
+        },
+        "almost":{
+            "meanings": [
+                {
+                    "definition": "very nearly but not exactly or entirely",
+                    "examples": [
+                        "The project is almost complete."
+                    ]
+                }
+            ],
+            "translation": "presque"
+        },
+        "purposes": {
+            "meanings": [
+                {
+                    "definition": "the reason for which something is done or created",
+                    "examples": [
+                        "The purposes of the project are to improve efficiency and reduce costs.",
+                        "medical purposes",
+                        "educational purposes"
+                    ]
+                }
+            ],
+            "translation": "objectifs"
+        },
+        "layout": {
+            "meanings": [
+                {
+                    "definition": "the way in which something is arranged or organized",
+                    "examples": [
+                        "The layout of the office is designed to encourage collaboration."
+                    ]
+                }
+            ],
+            "translation": "disposition, aménagement"
+        }
+    }
+
+}
