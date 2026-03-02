@@ -165,7 +165,7 @@
                 {
                     "definition": "to classify or separate items into groups",
                     "examples": [
-                        "They *sorted out* the recyclables from the trash."
+                        "They *sorted* *out* the recyclables from the trash."
                     ]
                 }
             ],
@@ -177,11 +177,69 @@
                 {
                     "definition": "used to indicate that a list continues with similar items",
                     "examples": [
-                        "I bought apples, bananas, oranges, *and so on*."
+                        "I bought apples, bananas, oranges, *and* *so* *on* ."
                     ]
                 }
             ],
             "translation": "etc., et ainsi de suite",
+            "position": 3
+        },
+        "oversight": {
+            "meanings": [
+                {
+                    "definition": "a mistake caused by not noticing something",
+                    "examples": [
+                        "Forgetting to attach the file was an *oversight*."
+                    ]
+                },
+                {
+                    "definition": "supervision or monitoring of a process or activity",
+                    "examples": [
+                        "The project is under government *oversight* ."
+                    ]
+                }
+            ],
+            "translation": "oubli, erreur d’inattention ; supervision, contrôle",
+            "position": 3
+        },
+        "stood me in good stead": {
+            "meanings": [
+                {
+                    "definition": "to have been useful or beneficial in a particular situation",
+                    "examples": [
+                        "My programming skills *stood* *me* *in* *good* *stead* during the technical interview.",
+                        "His prior experience *stood* *him* *in* *good* *stead* when he applied for the promotion.",
+                        "The English practice I did last year *stood* *me* *in* *good* *stead* during the exam.",
+                        "Her training *stood* *her* *in* *good* *stead* in a stressful situation."
+                    ]
+                }
+            ],
+            "translation": "m’a été très utile, m’a bien servi",
+            "position": 3
+        },
+        "warn": {
+            "meanings": [
+                {
+                    "definition": "to tell someone about a possible danger or problem so they can avoid it",
+                    "examples": [
+                        "She *warned* me about the heavy rain."
+                    ]
+                }
+            ],
+            "translation": "avertir, prévenir, mettre en garde",
+            "position": 3
+        },
+        "subsequent": {
+            "meanings": [
+                {
+                    "definition": "happening after something else",
+                    "examples": [
+                        "All *subsequent* meetings were postponed.",
+                        "The initial test failed, but *subsequent* attempts were successful."
+                    ]
+                }
+            ],
+            "translation": "ultérieur, suivant, subséquent",
             "position": 3
         }
     },
@@ -290,8 +348,8 @@
                 {
                     "definition": "to improve or increase",
                     "examples": [
-                        "Sales *picked up* last month.",
-                        "The wind *picked up* in the evening."
+                        "Sales *picked* *up* last month.",
+                        "The wind *picked* *up* in the evening."
                     ]
                 }
             ],
@@ -303,8 +361,8 @@
                 {
                     "definition": "a situation or place that is very disorganized or chaotic",
                     "examples": [
-                        "The kitchen was *a huge mess* after the party.",
-                        "My schedule this week is *a huge mess* with too many meetings.",
+                        "The kitchen was *a* *huge* *mess* after the party.",
+                        "My schedule this week is *a* *huge* *mess* with too many meetings.",
                         "a huge mess to sort out"
                     ]
                 }
@@ -603,7 +661,7 @@
                 {
                     "definition": "to deal with difficulties or problems without being upset",
                     "examples": [
-                        "He faced criticism at work and took it *in his stride*."
+                        "He faced criticism at work and took it *in* *his* stride*."
                     ]
                 }
             ],
