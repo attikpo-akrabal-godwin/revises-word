@@ -9,7 +9,8 @@
                     ]
                 }
             ],
-            "translation": "déclaration de mission"
+            "translation": "déclaration de mission",
+            "position": 1
         },
         "assess": {
             "meanings": [
@@ -26,7 +27,8 @@
                     ]
                 }
             ],
-            "translation": "évaluer"
+            "translation": "évaluer",
+            "position": 1
         },
         "perks": {
             "meanings": [
@@ -37,7 +39,8 @@
                     ]
                 }
             ],
-            "translation": "avantages"
+            "translation": "avantages",
+            "position": 1
         },
         "stockbroker": {
             "meanings": [
@@ -48,7 +51,8 @@
                     ]
                 }
             ],
-            "translation": "courtier en valeurs mobilières"
+            "translation": "courtier en valeurs mobilières",
+            "position": 1
         },
         "venue": {
             "meanings": [
@@ -59,7 +63,8 @@
                     ]
                 }
             ],
-            "translation": "lieu"
+            "translation": "lieu",
+            "position": 1
         },
         "fulfill": {
             "meanings": [
@@ -70,7 +75,8 @@
                     ]
                 }
             ],
-            "translation": "remplir"
+            "translation": "remplir",
+            "position": 1
         }
     },
     "Phrasal Verbs": {
@@ -84,7 +90,8 @@
                     ]
                 }
             ],
-            "translation": "se démarquer"
+            "translation": "se démarquer",
+            "position": 1
         },
         "carry out": {
             "meanings": [
@@ -95,7 +102,8 @@
                     ]
                 }
             ],
-            "translation": "effectuer"
+            "translation": "effectuer",
+            "position": 1
         },
         "come up": {
             "meanings": [
@@ -112,7 +120,8 @@
                     ]
                 }
             ],
-            "translation": "survenir"
+            "translation": "survenir",
+            "position": 1
         },
         "point out": {
             "meanings": [
@@ -123,7 +132,8 @@
                     ]
                 }
             ],
-            "translation": "faire remarquer"
+            "translation": "faire remarquer",
+            "position": 1
         },
         "get by": {
             "meanings": [
@@ -134,7 +144,45 @@
                     ]
                 }
             ],
-            "translation": "s'en sortir"
+            "translation": "s'en sortir",
+            "position": 1
+        },
+        "to sort out": {
+            "meanings": [
+                {
+                    "definition": "to organize or arrange things",
+                    "examples": [
+                        "I need to *sort out* my closet this weekend."
+                    ]
+                },
+                {
+                    "definition": "to resolve a problem or difficulty",
+                    "examples": [
+                        "We need to *sort out* the issue with the software.",
+                        "a huge mess to sort out"
+                    ]
+                },
+                {
+                    "definition": "to classify or separate items into groups",
+                    "examples": [
+                        "They *sorted out* the recyclables from the trash."
+                    ]
+                }
+            ],
+            "translation": "trier, résoudre, organiser",
+            "position": 3
+        },
+        "and so on": {
+            "meanings": [
+                {
+                    "definition": "used to indicate that a list continues with similar items",
+                    "examples": [
+                        "I bought apples, bananas, oranges, *and so on*."
+                    ]
+                }
+            ],
+            "translation": "etc., et ainsi de suite",
+            "position": 3
         }
     },
     "Daily Life": {
@@ -153,7 +201,8 @@
                     ]
                 }
             ],
-            "translation": "retirer"
+            "translation": "retirer",
+            "position": 1
         },
         "standing next to": {
             "meanings": [
@@ -164,7 +213,8 @@
                     ]
                 }
             ],
-            "translation": " à côté de"
+            "translation": " à côté de",
+            "position": 1
         },
         "hanging up the phone": {
             "meanings": [
@@ -175,7 +225,8 @@
                     ]
                 }
             ],
-            "translation": "raccrocher le téléphone"
+            "translation": "raccrocher le téléphone",
+            "position": 1
         },
         "sheet": {
             "meanings": [
@@ -186,7 +237,8 @@
                     ]
                 }
             ],
-            "translation": "drap"
+            "translation": "drap",
+            "position": 1
         },
         "stationery": {
             "meanings": [
@@ -197,7 +249,8 @@
                     ]
                 }
             ],
-            "translation": "papeterie"
+            "translation": "papeterie",
+            "position": 1
         },
         "fares": {
             "meanings": [
@@ -208,7 +261,56 @@
                     ]
                 }
             ],
-            "translation": "tarifs,billets"
+            "translation": "tarifs,billets",
+            "position": 1
+        },
+        "pick up": {
+            "meanings": [
+                {
+                    "definition": "to lift something from a surface",
+                    "examples": [
+                        "She *picked up* the pen from the table.",
+                        "He *picked up* his bag and left the room."
+                    ]
+                },
+                {
+                    "definition": "to collect someone or something from a place",
+                    "examples": [
+                        "I will *pick you up* at the airport tomorrow.",
+                        "She *picked up* her child from school."
+                    ]
+                },
+                {
+                    "definition": "to learn something without formal instruction",
+                    "examples": [
+                        "He *picked up* Spanish while traveling.",
+                        "You must have *picked up* lots of valuable experience"
+                    ]
+                },
+                {
+                    "definition": "to improve or increase",
+                    "examples": [
+                        "Sales *picked up* last month.",
+                        "The wind *picked up* in the evening."
+                    ]
+                }
+            ],
+            "translation": "ramasser, récupérer, apprendre, augmenter",
+            "position": 3
+        },
+        "a huge mess": {
+            "meanings": [
+                {
+                    "definition": "a situation or place that is very disorganized or chaotic",
+                    "examples": [
+                        "The kitchen was *a huge mess* after the party.",
+                        "My schedule this week is *a huge mess* with too many meetings.",
+                        "a huge mess to sort out"
+                    ]
+                }
+            ],
+            "translation": "un énorme désordre, un chaos",
+            "position": 3
         }
     },
     "General Vocabulary": {
@@ -223,7 +325,8 @@
                     ]
                 }
             ],
-            "translation": "éveiller , susciter"
+            "translation": "éveiller , susciter",
+            "position": 1
         },
         "awoken": {
             "meanings": [
@@ -234,7 +337,8 @@
                     ]
                 }
             ],
-            "translation": "réveillé"
+            "translation": "réveillé",
+            "position": 1
         },
         "awkward": {
             "meanings": [
@@ -246,7 +350,8 @@
                     ]
                 }
             ],
-            "translation": "gênant, difficile à gérer"
+            "translation": "gênant, difficile à gérer",
+            "position": 1
         },
         "crowd": {
             "meanings": [
@@ -258,7 +363,8 @@
                     ]
                 }
             ],
-            "translation": "foule"
+            "translation": "foule",
+            "position": 1
         },
         "gathering": {
             "meanings": [
@@ -273,15 +379,10 @@
                     "examples": [
                         "The gathering of data is important for research."
                     ]
-                },
-                {
-                    "definition": "Understood or inferred without being explicitly stated",
-                    "examples": [
-                        "I have a gathering that he will be late."
-                    ]
                 }
             ],
-            "translation": "rassemblement, collecte, intuition"
+            "translation": "rassemblement, collecte",
+            "position": 1
         },
         "further": {
             "meanings": [
@@ -305,7 +406,8 @@
                     ]
                 }
             ],
-            "translation": "plus loin, promouvoir, supplémentaire"
+            "translation": "plus loin, promouvoir, supplémentaire",
+            "position": 1
         },
         "odd": {
             "meanings": [
@@ -316,7 +418,8 @@
                     ]
                 }
             ],
-            "translation": "bizarre, étrange"
+            "translation": "bizarre, étrange",
+            "position": 1
         },
         "blurred": {
             "meanings": [
@@ -329,7 +432,8 @@
                     ]
                 }
             ],
-            "translation": "flou"
+            "translation": "flou",
+            "position": 1
         },
         "blurry": {
             "meanings": [
@@ -340,7 +444,8 @@
                     ]
                 }
             ],
-            "translation": "flou"
+            "translation": "flou",
+            "position": 1
         },
         "buried": {
             "meanings": [
@@ -352,7 +457,8 @@
                     ]
                 }
             ],
-            "translation": "enterré"
+            "translation": "enterré",
+            "position": 1
         },
         "clues": {
             "meanings": [
@@ -363,7 +469,8 @@
                     ]
                 }
             ],
-            "translation": "indices"
+            "translation": "indices",
+            "position": 2
         },
         "quote": {
             "meanings": [
@@ -374,7 +481,8 @@
                     ]
                 }
             ],
-            "translation": "citation"
+            "translation": "citation",
+            "position": 1
         },
         "unfair": {
             "meanings": [
@@ -385,7 +493,8 @@
                     ]
                 }
             ],
-            "translation": "injuste"
+            "translation": "injuste",
+            "position": 2
         },
         "butt": {
             "meanings": [
@@ -396,7 +505,8 @@
                     ]
                 }
             ],
-            "translation": ""
+            "translation": "fesse , but de moquerie",
+            "position": 1
         },
         "attempt": {
             "meanings": [
@@ -407,7 +517,8 @@
                     ]
                 }
             ],
-            "translation": "tenter"
+            "translation": "tenter",
+            "position": 2
         },
         "within": {
             "meanings": [
@@ -418,7 +529,8 @@
                     ]
                 }
             ],
-            "translation": "à l'intérieur de"
+            "translation": "à l'intérieur de",
+            "position": 1
         },
         "sloppy": {
             "meanings": [
@@ -429,7 +541,8 @@
                     ]
                 }
             ],
-            "translation": "négligent"
+            "translation": "négligent",
+            "position": 2
         },
         "quotation": {
             "meanings": [
@@ -446,7 +559,8 @@
                     ]
                 }
             ],
-            "translation": "citation"
+            "translation": "citation",
+            "position": 1
         },
         "showroom": {
             "meanings": [
@@ -457,7 +571,8 @@
                     ]
                 }
             ],
-            "translation": "salle d'exposition"
+            "translation": "salle d'exposition",
+            "position": 1
         },
         "At the outset": {
             "meanings": [
@@ -468,7 +583,8 @@
                     ]
                 }
             ],
-            "translation": "au début"
+            "translation": "au début",
+            "position": 2
         },
         "to hit the mark ": {
             "meanings": [
@@ -479,7 +595,58 @@
                     ]
                 }
             ],
-            "translation": "atteindre l'objectif"
+            "translation": "atteindre l'objectif",
+            "position": 1
+        },
+        "in my stride": {
+            "meanings": [
+                {
+                    "definition": "to deal with difficulties or problems without being upset",
+                    "examples": [
+                        "He faced criticism at work and took it *in his stride*."
+                    ]
+                }
+            ],
+            "translation": "avec sérénité, sans se laisser perturber, avec philosophie",
+            "position": 3
+        },
+        "indeed": {
+            "meanings": [
+                {
+                    "definition": "used to emphasize a statement or confirm something",
+                    "examples": [
+                        "She’s very talented. *Indeed* she is.",
+                        "*Indeed*. But presumably you’d checked out the firm prior to joining."
+                    ]
+                }
+            ],
+            "translation": "en effet, vraiment, assurément",
+            "position": 3
+        },
+        "thorough": {
+            "meanings": [
+                {
+                    "definition": "complete, careful, and detailed",
+                    "examples": [
+                        "She did a *thorough* job cleaning the house.",
+                        "But maybe because of my lack of experience, I hadn’t been *thorough* enough."
+                    ]
+                }
+            ],
+            "translation": "complet, minutieux, approfondi",
+            "position": 3
+        },
+        "prior": {
+            "meanings": [
+                {
+                    "definition": "before a particular time or event",
+                    "examples": [
+                        "Please read the instructions *prior* to starting the exam."
+                    ]
+                }
+            ],
+            "translation": "préalable, antérieur, précédent",
+            "position": 3
         },
         "knock": {
             "meanings": [
@@ -490,7 +657,8 @@
                     ]
                 }
             ],
-            "translation": "battre, frapper"
+            "translation": "battre, frapper",
+            "position": 2
         },
         "involve": {
             "meanings": [
@@ -501,7 +669,8 @@
                     ]
                 }
             ],
-            "translation": "impliquer"
+            "translation": "impliquer",
+            "position": 1
         },
         "evolve": {
             "meanings": [
@@ -512,7 +681,8 @@
                     ]
                 }
             ],
-            "translation": "évoluer"
+            "translation": "évoluer",
+            "position": 1
         },
         "joinery": {
             "meanings": [
@@ -523,7 +693,8 @@
                     ]
                 }
             ],
-            "translation": "menuiserie"
+            "translation": "menuiserie",
+            "position": 1
         },
         "staircases": {
             "meanings": [
@@ -534,7 +705,8 @@
                     ]
                 }
             ],
-            "translation": "escaliers"
+            "translation": "escaliers",
+            "position": 2
         },
         "range from … to …": {
             "meanings": [
@@ -545,7 +717,8 @@
                     ]
                 }
             ],
-            "translation": "aller de ... à ..."
+            "translation": "aller de ... à ...",
+            "position": 1
         },
         "spreads": {
             "meanings": [
@@ -556,7 +729,8 @@
                     ]
                 }
             ],
-            "translation": "se répandre"
+            "translation": "se répandre",
+            "position": 2
         },
         "forefront": {
             "meanings": [
@@ -567,7 +741,8 @@
                     ]
                 }
             ],
-            "translation": "premier plan"
+            "translation": "premier plan",
+            "position": 2
         },
         "reliable": {
             "meanings": [
@@ -578,7 +753,8 @@
                     ]
                 }
             ],
-            "translation": "fiable"
+            "translation": "fiable",
+            "position": 1
         },
         "relatable": {
             "meanings": [
@@ -589,7 +765,8 @@
                     ]
                 }
             ],
-            "translation": "relatable"
+            "translation": "relatable",
+            "position": 2
         },
         "towards": {
             "meanings": [
@@ -600,7 +777,8 @@
                     ]
                 }
             ],
-            "translation": "vers"
+            "translation": "vers",
+            "position": 2
         },
         "reckon": {
             "meanings": [
@@ -617,7 +795,8 @@
                     ]
                 }
             ],
-            "translation": "penser, estimer , calculer"
+            "translation": "penser, estimer , calculer",
+            "position": 2
         },
         "scheme": {
             "meanings": [
@@ -628,7 +807,8 @@
                     ]
                 }
             ],
-            "translation": "plan, programme"
+            "translation": "plan, programme",
+            "position": 2
         },
         "undertaking": {
             "meanings": [
@@ -639,7 +819,8 @@
                     ]
                 }
             ],
-            "translation": "entreprise, projet"
+            "translation": "entreprise, projet",
+            "position": 2
         },
         "Whichever": {
             "meanings": [
@@ -650,7 +831,8 @@
                     ]
                 }
             ],
-            "translation": "lequel que ce soit"
+            "translation": "lequel que ce soit",
+            "position": 2
         },
         "whoever": {
             "meanings": [
@@ -661,7 +843,8 @@
                     ]
                 }
             ],
-            "translation": "quiconque"
+            "translation": "quiconque",
+            "position": 2
         },
         "whatever": {
             "meanings": [
@@ -672,7 +855,8 @@
                     ]
                 }
             ],
-            "translation": "quoi que ce soit"
+            "translation": "quoi que ce soit",
+            "position": 2
         },
         "barely": {
             "meanings": [
@@ -683,9 +867,10 @@
                     ]
                 }
             ],
-            "translation": "à peine"
+            "translation": "à peine",
+            "position": 2
         },
-        "almost":{
+        "almost": {
             "meanings": [
                 {
                     "definition": "very nearly but not exactly or entirely",
@@ -694,7 +879,8 @@
                     ]
                 }
             ],
-            "translation": "presque"
+            "translation": "presque",
+            "position": 2
         },
         "purposes": {
             "meanings": [
@@ -707,7 +893,8 @@
                     ]
                 }
             ],
-            "translation": "objectifs"
+            "translation": "objectifs",
+            "position": 2
         },
         "layout": {
             "meanings": [
@@ -718,8 +905,8 @@
                     ]
                 }
             ],
-            "translation": "disposition, aménagement"
+            "translation": "disposition, aménagement",
+            "position": 2
         }
     }
-
 }

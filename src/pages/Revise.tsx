@@ -32,11 +32,15 @@ function transformDataFormat1(data: any): WordItem[] {
 
 function transformDataFormat2(data: DictionaryType): WordItem[] {
   const result: WordItem[] = [];
+  const latestPosition = localStorage.getItem("latestPosition")
+
 
   Object.values(data).forEach((category: any) => {
     Object.entries(category).forEach(([word, wordData]: any) => {
       const meanings = wordData.meanings;
+      const position = wordData.position
 
+      if(latestPosition && position !== parseInt(latestPosition) ) return
       if (!meanings || meanings.length === 0) return;
 
       // choisir un meaning aléatoire

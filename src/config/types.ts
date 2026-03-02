@@ -7,6 +7,7 @@ export type Meaning = {
 
 export type WordEntry = {
   translation: string;
+  position:number;
   meanings: Meaning[];
 };
 

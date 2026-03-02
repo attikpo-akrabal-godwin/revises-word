@@ -1,35 +1,75 @@
-import {  BarChart3, BookOpen, FileText, Users } from "lucide-react";
-import { use, useEffect } from "react";
+import { BarChart3, BookOpen, FileText, Users } from "lucide-react";
+import { use, useEffect, useState } from "react";
 import { NavLink } from "react-router";
 import data from "../assets/format2.json";
-
+const nbrOfPostion = 3
 
 
 
 export default function GridMenu() {
+    const [curentPosition, setcurentPosition] = useState(1)
     useEffect(() => {
         if (!localStorage.getItem("db")) {
             localStorage.setItem("db", JSON.stringify(data));
         }
-    }, []);
-    
-    const menuItems = [
-       /*  { title: "Dashboard", icon: Home, url: "/" }, */
-        { title: "Vocabulary", icon: BookOpen, url: "/revise" },
-        {title: "Dictionary", icon: FileText, url: "/dictionary"},
-        { title: "Match  meanings", icon: Users , url: "/match" },
-        { title: "Word sentences", icon: BarChart3, url: "/sentences"},
-       /* 
-         
-        { title: "Documents", icon: FileText },
-        { title: "Settings", icon: Settings }, */
-    ];
 
+        const lastestPosition = localStorage.getItem("latestPosition")
+
+        if (!lastestPosition) {
+            localStorage.setItem("latestPosition", "1");
+        }else{
+            setcurentPosition(parseInt(lastestPosition))
+        }
+    }, []);
+
+    const changeCurentPositions = (position:number)=>{
+        setcurentPosition(position)
+        localStorage.setItem("latestPosition", position.toString());
+    }
+
+
+    const menuItems = [
+        /*  { title: "Dashboard", icon: Home, url: "/" }, */
+        { title: "Vocabulary", icon: BookOpen, url: "/revise" },
+        { title: "Dictionary", icon: FileText, url: "/dictionary" },
+        { title: "Match  meanings", icon: Users, url: "/match" },
+        { title: "Word sentences", icon: BarChart3, url: "/sentences" },
+        /* 
+          
+         { title: "Documents", icon: FileText },
+         { title: "Settings", icon: Settings }, */
+    ];
     return (
         <div className=" bg-gray-100 p-10">
             <div className="max-w-6xl mx-auto">
                 <h1 className="text-3xl font-bold mb-10">Application Menu</h1>
+                <div className="flex justify-center mb-7">
+                    <div className=" border-gray-300 px-6 py-3 rounded-xl  ">
+                        position
+                    </div>
+                    <div className="flex gap-4 items-center">
 
+                        {
+                            Array.from({ length: nbrOfPostion }, (_, index) => (
+                                <button
+                                    key={index}
+                                    className={`${curentPosition === index + 1 ?
+                                        'bg-blue-500 text-red-500' :
+                                        'bg-gray-900 text-black'
+                                        } px-6 py-3 rounded-xl`}
+                                    onClick={()=>{
+                                        changeCurentPositions(index + 1)
+                                    }}
+                                >
+                                    {index + 1}
+                                </button>
+                            ))
+                        }
+
+
+
+                    </div>
+                </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
                     {menuItems.map((item, index) => {
                         const Icon = item.icon;

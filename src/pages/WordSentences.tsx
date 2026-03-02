@@ -5,13 +5,16 @@ import { Info } from "lucide-react";
 
 function getAllExamples(data: DictionaryType): string[] {
     const allExamples: string[] = [];
+    const latestPosition = localStorage.getItem("latestPosition")
+
 
     // Parcours des catégories
     Object.values(data).forEach(category => {
 
         // Parcours des mots
         Object.values(category).forEach(word => {
-
+            const position = word.position
+            if(latestPosition && position !== parseInt(latestPosition) ) return
             // Parcours des meanings
             word.meanings.forEach(meaning => {
 
@@ -85,9 +88,7 @@ const WordSentences = () => {
         //const shuffledDefinitions = shuffleWords(newWordList).map(item => item.definition);
     }, [page, BaseSentenceList]);
 
-    useEffect(()=>{
-        console.log(inputValues)
-    },[inputValues])
+   
 
     const nextPage = () => {
         if (page * itemsPerPage >= BaseSentenceList.length) return;
