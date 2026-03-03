@@ -88,6 +88,11 @@ const WordSentences = () => {
         //const shuffledDefinitions = shuffleWords(newWordList).map(item => item.definition);
     }, [page, BaseSentenceList]);
 
+
+    useEffect(()=>{
+        console.log(inputValues);
+    },[inputValues])
+
    
 
     const nextPage = () => {
@@ -99,17 +104,17 @@ const WordSentences = () => {
         setPage((prev) => Math.max(prev - 1, 1));
     }
 
-    const getClass = (word: string) => {
+    const getClass = (word: string,i: number) => {
 
         if (word[0] === "*") {
-            word = word.replaceAll("*", "");
+            word = word.replaceAll("*", "")?.toLocaleLowerCase();
         }
 
-        if (inputValues[word]?.toLocaleLowerCase() === word?.toLowerCase()) {
+        if (inputValues[word+i] === word?.toLowerCase()) {
             return "border-2 border-green-500 bg-green-50 pt-3 pb-2 rounded-xl  items-center";
         }
 
-        const Findvalue = inputValues[word]?.toLowerCase() || "";
+        const Findvalue = inputValues[word+i]?.toLowerCase() || "";
 
 
         if ((Findvalue !== "") && (Findvalue !== word)) {
@@ -170,13 +175,13 @@ const WordSentences = () => {
                                                     key={i}
                                                     type="text"
                                                     onChange={(e) => {
-                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase()]: e.target.value }));
+                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase()+i]: e.target.value }));
                                                     }}
                                                     onBlur={(e) => {
-                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase()]: e.target.value }));
+                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase()+i]: e.target.value }));
                                                     }}
-                                                    value={inputValues[part.replaceAll("*", "")?.toLowerCase()]||""}
-                                                    className={getClass(part.replaceAll("*", "")?.toLowerCase()) + " text-center"}
+                                                    value={inputValues[part.replaceAll("*", "")?.toLowerCase()+i]||""}
+                                                    className={getClass(part.replaceAll("*", "")?.toLowerCase(),i) + " text-center"}
                                                 />
                                             </span>
                                         </>

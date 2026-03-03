@@ -241,6 +241,86 @@
             ],
             "translation": "ultérieur, suivant, subséquent",
             "position": 3
+        },
+        "though": {
+            "meanings": [
+                {
+                    "definition": "used to introduce a contrast (similar to although)",
+                    "examples": [
+                        " *Though* he was tired, he kept working."
+                    ]
+                },
+                {
+                    "definition": "used at the end of a sentence to add contrast (informal use)",
+                    "examples": [
+                        "He’s strict. He’s fair, *though* .",
+                        "Not an experience I’d care to repeat *though* "
+                    ]
+                }
+            ],
+            "translation": "bien que, cependant",
+            "position": 3
+        },
+        "stuff": {
+            "meanings": [
+                {
+                    "definition": "a material or substance",
+                    "examples": [
+                        "What is this *stuff* made of?"
+                    ]
+                }
+            ],
+            "translation": "choses, affaires, truc, substance",
+            "position": 3
+        },
+        "reluctant": {
+            "meanings": [
+                {
+                    "definition": "not willing or hesitant to do something",
+                    "examples": [
+                        "He is quite *reluctant* to share his personal stuff."
+                    ]
+                }
+            ],
+            "translation": "réticent, hésitant",
+            "position": 3
+        },
+        "remain": {
+            "meanings": [
+                {
+                    "definition": "to continue to be in the same state or condition",
+                    "examples": [
+                        "She *remained* calm during the interview.",
+                        "The problem *remains* unsolved."
+                    ]
+                }
+            ],
+            "translation": "rester, demeurer",
+            "position": 3
+        },
+        "by no means": {
+            "meanings": [
+                {
+                    "definition": "certainly not; not at all",
+                    "examples": [
+                        "He is *by* *no* *means* the best player on the team."
+                    ]
+                }
+            ],
+            "translation": "en aucun cas, certainement pas",
+            "position": 3
+        },
+        "a given": {
+            "meanings": [
+                {
+                    "definition": "something that is certain or assumed to be true",
+                    "examples": [
+                        "Hard work is *a* *given* in any successful career."
+                    ]
+                }
+            ],
+            "translation": "une certitude, quelque chose de sûr",
+            "position": 3
         }
     },
     "Daily Life": {
