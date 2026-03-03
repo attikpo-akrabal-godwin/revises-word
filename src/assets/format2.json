@@ -523,7 +523,7 @@
                 {
                     "definition": "pieces of evidence used to solve a problem or crime",
                     "examples": [
-                        "The police found new clues."
+                        "The police found new clues ."
                     ]
                 }
             ],
@@ -661,7 +661,7 @@
                 {
                     "definition": "to deal with difficulties or problems without being upset",
                     "examples": [
-                        "He faced criticism at work and took it *in* *his* stride* ."
+                        "He faced criticism at work and took it *in* *his* *stride* ."
                     ]
                 }
             ],
@@ -880,7 +880,7 @@
             "translation": "entreprise, projet",
             "position": 2
         },
-        "Whichever": {
+        "whichever": {
             "meanings": [
                 {
                     "definition": "used to indicate that any one of a group of things is acceptable",
