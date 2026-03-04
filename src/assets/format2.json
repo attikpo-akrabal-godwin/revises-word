@@ -261,6 +261,19 @@
             "translation": "bien que, cependant",
             "position": 3
         },
+        "having said that though": {
+            "meanings": [
+                {
+                    "definition": "used to introduce a contrast with something that was just said",
+                    "examples": [
+                        "The project was challenging. *Having* *said* *that* , *though*, we learned a lot.",
+                        "The job is demanding. *Having* *said* *that* , it is very rewarding."
+                    ]
+                }
+            ],
+            "translation": "cela dit cependant, néanmoins",
+            "position": 20
+        },
         "stuff": {
             "meanings": [
                 {
@@ -321,6 +334,24 @@
             ],
             "translation": "une certitude, quelque chose de sûr",
             "position": 3
+        },
+        "weathered": {
+            "meanings": [
+                {
+                    "definition": "to successfully deal with or survive a difficult situation",
+                    "examples": [
+                        "The company *weathered* the financial crisis."
+                    ]
+                },
+                {
+                    "definition": "worn or damaged by exposure to weather",
+                    "examples": [
+                        "The house had *weathered* wooden doors."
+                    ]
+                }
+            ],
+            "translation": "surmonté ; usé par le temps",
+            "position": 19
         }
     },
     "Daily Life": {
