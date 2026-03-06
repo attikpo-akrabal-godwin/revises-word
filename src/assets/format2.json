@@ -338,7 +338,7 @@
         "weathered": {
             "meanings": [
                 {
-                    "definition": "to successfully deal with or survive a difficult situation",
+                    "definition": "survive a difficult situation",
                     "examples": [
                         "The company *weathered* the financial crisis."
                     ]
@@ -351,7 +351,106 @@
                 }
             ],
             "translation": "surmonté ; usé par le temps",
-            "position": 19
+            "position": 4
+        },
+        "mettle": {
+            "meanings": [
+                {
+                    "definition": "a person's ability to cope well with difficulties; courage and determination",
+                    "examples": [
+                        "The competition tested his *mettle* ."
+                    ]
+                }
+            ],
+            "translation": "courage, détermination, force de caractère",
+            "position": 4
+        },
+        "to cope with": {
+            "meanings": [
+                {
+                    "definition": "to deal successfully with a difficult situation",
+                    "examples": [
+                        "She learned how to *cope* *with* stress at work."
+                    ]
+                }
+            ],
+            "translation": "faire face à, gérer",
+            "position": 23
+        },
+        "well-rounded": {
+            "meanings": [
+                {
+                    "definition": "having a balanced set of skills, qualities, or experiences",
+                    "examples": [
+                        "She is a *well-rounded* candidate with both technical and communication skills.",
+                        "The university aims to develop *well-rounded* students."
+                    ]
+                }
+            ],
+            "translation": "polyvalent, complet, équilibré",
+            "position": 4
+        },
+        "self-appraisal": {
+            "meanings": [
+                {
+                    "definition": "an evaluation that you make about your own performance, skills, or progress",
+                    "examples": [
+                        "Employees must complete a *self-appraisal* before their annual review."
+                    ]
+                }
+            ],
+            "translation": "auto-évaluation professionnelle",
+            "position": 4
+        },
+        "cope with": {
+            "meanings": [
+                {
+                    "definition": "to deal successfully with a difficult situation or problem",
+                    "examples": [
+                        "She has learned to *cope* *with* stress at work."
+                    ]
+                }
+            ],
+            "translation": "faire face à, gérer",
+            "position": 4
+        },
+        "come full circle": {
+            "meanings": [
+                {
+                    "definition": "to return to the original situation after many changes or events",
+                    "examples": [
+                        "After many years working abroad, his career has *come* *full* *circle* .",
+                        "Fashion trends often *come* *full* *circle* ."
+                    ]
+                }
+            ],
+            "translation": "revenir au point de départ, boucler la boucle",
+            "position": 4
+        },
+        "attended": {
+            "meanings": [
+                {
+                    "definition": "was present at an event, meeting, class, or activity",
+                    "examples": [
+                        "I *attended* a cybersecurity conference last year.",
+                        "She *attended* the meeting with the project manager."
+                    ]
+                }
+            ],
+            "translation": "a assisté à, a participé à",
+            "position": 4
+        },
+        "reckless": {
+            "meanings": [
+                {
+                    "definition": "acting without thinking about the risks or consequences",
+                    "examples": [
+                        "Driving too fast in the rain is *reckless* ."
+                    ]
+                }
+            ],
+            "translation": "imprudent, irresponsable",
+            "position": 4
         }
     },
     "Daily Life": {
@@ -590,6 +689,19 @@
             "translation": "bizarre, étrange",
             "position": 1
         },
+        "what are the odds": {
+            "meanings": [
+                {
+                    "definition": "used to ask how likely something is to happen, often expressing surprise",
+                    "examples": [
+                        " *What* *are* *the* *odds* of meeting you here in Paris?",
+                        "He guessed the correct number *what* *are* *the* *odds* ?"
+                    ]
+                }
+            ],
+            "translation": "quelles sont les chances, c’est peu probable",
+            "position": 4
+        },
         "blurred": {
             "meanings": [
                 {
@@ -711,6 +823,18 @@
                 }
             ],
             "translation": "négligent",
+            "position": 2
+        },
+        "neat": {
+            "meanings": [
+                {
+                    "definition": "clean, tidy, and well organized",
+                    "examples": [
+                        "Her desk is very *neat*."
+                    ]
+                }
+            ],
+            "translation": "soigné, ordonné ; astucieux ; pur (boisson)",
             "position": 2
         },
         "quotation": {

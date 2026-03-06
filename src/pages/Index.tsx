@@ -2,7 +2,7 @@ import { BarChart3, BookOpen, FileText, Users } from "lucide-react";
 import { use, useEffect, useState } from "react";
 import { NavLink } from "react-router";
 import data from "../assets/format2.json";
-const nbrOfPostion = 3
+const nbrOfPostion = 4
 
 
 

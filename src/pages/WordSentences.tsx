@@ -121,6 +121,8 @@ const WordSentences = () => {
             return "border-2 border-red-500 bg-red-50 pt-3 pb-2 rounded-xl  items-center";
         }
 
+        console.log("getClass",word+i)
+
         return "border-2 border-gray-200 bg-gray-50 pt-3 pb-2 rounded-xl  items-center";
 
 
@@ -175,13 +177,13 @@ const WordSentences = () => {
                                                     key={i}
                                                     type="text"
                                                     onChange={(e) => {
-                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase()+i]: e.target.value }));
+                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase()+i.toString()+index.toString()]: e.target.value }));
                                                     }}
                                                     onBlur={(e) => {
-                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase()+i]: e.target.value }));
+                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase()+i.toString()+index.toString()]: e.target.value }));
                                                     }}
-                                                    value={inputValues[part.replaceAll("*", "")?.toLowerCase()+i]||""}
-                                                    className={getClass(part.replaceAll("*", "")?.toLowerCase(),i) + " text-center"}
+                                                    value={inputValues[part.replaceAll("*", "")?.toLowerCase()+i.toString()+index.toString()]||""}
+                                                    className={getClass(part.replaceAll("*", "")?.toLowerCase(),parseInt(i.toString()+index.toString())) + " text-center"}
                                                 />
                                             </span>
                                         </>
