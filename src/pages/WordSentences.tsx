@@ -121,7 +121,6 @@ const WordSentences = () => {
             return "border-2 border-red-500 bg-red-50 pt-3 pb-2 rounded-xl  items-center";
         }
 
-        console.log("getClass",word+i)
 
         return "border-2 border-gray-200 bg-gray-50 pt-3 pb-2 rounded-xl  items-center";
 

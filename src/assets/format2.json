@@ -451,6 +451,92 @@
             ],
             "translation": "imprudent, irresponsable",
             "position": 4
+        },
+        "probationary": {
+            "meanings": [
+                {
+                    "definition": "relating to a trial period during which someone's performance or behavior is evaluated",
+                    "examples": [
+                        "you have only been in the job for a couple of months so I suppose you haven't really finished your probationary period yet"
+                    ]
+                }
+            ],
+            "translation": "probatoire, période d’essai",
+            "position": 4
+        },
+        "suitable": {
+            "meanings": [
+                {
+                    "definition": "right or appropriate for a particular purpose or situation",
+                    "examples": [
+                        "This candidate seems suitable for the position.",
+                        "It’s probably not a good idea to start complaining too much as they might decide that you are not suitable for the job!"
+                    ]
+                }
+            ],
+            "translation": "approprié, convenable",
+            "position": 4
+        },
+        "mislead": {
+            "meanings": [
+                {
+                    "definition": "to cause someone to believe something that is not true",
+                    "examples": [
+                        "False information can *mislead* people.",
+                        "Often people are *misled* when they come out of an engineering school for example !"
+                    ]
+                }
+            ],
+            "translation": "induire en erreur, tromper",
+            "position": 4
+        },
+        "a problem shared is a problem halved": {
+            "meanings": [
+                {
+                    "definition": "talking about a problem with someone makes it easier to deal with",
+                    "examples": [
+                        "You should talk to someone about your worries *a* *problem* *shared* *is* *a* *problem* *halved* ."
+                    ]
+                }
+            ],
+            "translation": "un problème partagé est à moitié résolu",
+            "position": 4
+        },
+        "pleased": {
+            "meanings": [
+                {
+                    "definition": "happy or satisfied with something",
+                    "examples": [
+                        "She was *pleased* with the results of her exam ."
+                    ]
+                }
+            ],
+            "translation": "content, satisfait",
+            "position": 4
+        },
+        "countless": {
+            "meanings": [
+                {
+                    "definition": "a very large number of spreadsheets; too many to count",
+                    "examples": [
+                        "The accountant had to review *countless* spreadsheets before the audit."
+                    ]
+                }
+            ],
+            "translation": "d’innombrables ",
+            "position": 4
+        },
+        "a face like a boot": {
+            "meanings": [
+                {
+                    "definition": "informal expression meaning someone’s face is considered ugly or unattractive",
+                    "examples": [
+                        "Some old cartoons exaggerated villains with *faces like a boot*."
+                    ]
+                }
+            ],
+            "translation": "un visage laid (expression familière, insultante)",
+            "position": 4
         }
     },
     "Daily Life": {
@@ -694,8 +780,8 @@
                 {
                     "definition": "used to ask how likely something is to happen, often expressing surprise",
                     "examples": [
-                        " *What* *are* *the* *odds* of meeting you here in Paris?",
-                        "He guessed the correct number *what* *are* *the* *odds* ?"
+                        "What are the *odds* of meeting you here in Paris?",
+                        "He guessed the correct number what are the *odds* ?"
                     ]
                 }
             ],
