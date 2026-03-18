@@ -1,7 +1,7 @@
 import { BarChart3, BookOpen, FileText, Users } from "lucide-react";
 import { use, useEffect, useState } from "react";
 import { NavLink } from "react-router";
-import data from "../assets/format2.json";
+import data from "../assets/curentFile.json";
 const nbrOfPostion = 4
 
 
@@ -54,8 +54,8 @@ export default function GridMenu() {
                                 <button
                                     key={index}
                                     className={`${curentPosition === index + 1 ?
-                                        'bg-blue-500 text-red-500' :
-                                        'bg-gray-900 text-black'
+                                        'bg-blue-500 text--500' :
+                                        'bg-gray-300 text-white'
                                         } px-6 py-3 rounded-xl`}
                                     onClick={()=>{
                                         changeCurentPositions(index + 1)

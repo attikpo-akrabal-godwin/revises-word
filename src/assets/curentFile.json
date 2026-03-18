@@ -916,12 +916,12 @@
                 {
                     "definition": "clean, tidy, and well organized",
                     "examples": [
-                        "Her desk is very *neat*."
+                        "Her desk is very *neat* ."
                     ]
                 }
             ],
             "translation": "soigné, ordonné ; astucieux ; pur (boisson)",
-            "position": 2
+            "position": 4
         },
         "quotation": {
             "meanings": [
@@ -1187,7 +1187,7 @@
                 }
             ],
             "translation": "plan, programme",
-            "position": 2
+            "position": 4
         },
         "undertaking": {
             "meanings": [

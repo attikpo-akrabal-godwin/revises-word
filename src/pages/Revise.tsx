@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import '../App.css'
 //import data from "../assets/initWords.json";
-// data from "../assets/format2.json";
+// data from "../assets/curentFile.json";
 import type { DictionaryType } from '../config/types';
 
 type WordItem = { word: string, definition: string };

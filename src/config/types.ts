@@ -35,3 +35,18 @@ export const defaultDictionary : DictionaryType = {
       
     },
   }
+
+export const wordDefault = {
+  "mots": {
+            "meanings": [
+                {
+                    "definition": "la def",
+                    "examples": [
+                        "Un exemple"
+                    ]
+                }
+            ],
+            "translation": "traduction",
+            "position": 1
+        }
+}
