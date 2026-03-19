@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { defaultDictionary, wordDefault, type DictionaryType } from "../config/types";
+import { MoveDown, Plus } from "lucide-react";
 //import dictionaryData from "../assets/curentFile.json";
 
 const DictionaryPage = () => {
@@ -83,9 +84,9 @@ const DictionaryPage = () => {
         })
       } else {
         const tempData = Object.entries(parsed);
-        const [word, data] = tempData[0] ;
+        const [word, data] = tempData[0];
         setDictionary((prev) => {
-          const newDictionary = {...prev};
+          const newDictionary = { ...prev };
           newDictionary[selectedCategory][word] = data;
           console.log({
             ...prev,
@@ -96,7 +97,7 @@ const DictionaryPage = () => {
           });
           return newDictionary;
         })
-       console.log([word, data])
+        console.log([word, data])
         /* setDictionary((prev) => {
           return {
             ...prev,
@@ -152,6 +153,35 @@ const DictionaryPage = () => {
         }
       };
     });
+  };
+
+  const downloadJSON = () => {
+    //const data = localStorage.getItem("db");
+
+    const data = JSON.stringify(dictionary, null, 2);
+
+    if (!data) {
+      alert("Aucune donnée à télécharger ❌");
+      return;
+    }
+
+    // créer un Blob (fichier)
+    const blob = new Blob([data], { type: "application/json" });
+
+    // créer une URL temporaire
+    const url = URL.createObjectURL(blob);
+
+    // créer un lien invisible
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "dictionary.json"; // nom du fichier
+
+    document.body.appendChild(a);
+    a.click();
+
+    // nettoyage
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   };
 
 
@@ -215,14 +245,40 @@ const DictionaryPage = () => {
         <div className="flex mb-8">
           <h1 className="text-3xl font-bold  w-5/6">{selectedCategory}</h1>
 
-          <div className="w-1/6" >
+          <div className="w-1/6 flex justify-between "  >
+            <button
+              onClick={downloadJSON}
+              className="flex items-center justify-center gap-1.5 
+             bg-black text-white 
+             px-3 py-1.5 
+             h-10
+             rounded-lg 
+             text-xs font-medium 
+             hover:bg-gray-800 
+             transition-all duration-200 
+             shadow-sm hover:shadow
+             mr-3"
+             
+            >
+              Télécharger
+              <MoveDown size={14} />
+            </button>
             <button
               onClick={() => {
                 openEditor()
               }}
-              className={`bg-gray-100 border-black block  text-center  rounded-lg transition  `}
+              className={`flex items-center justify-center gap-1.5 
+             bg-black text-white 
+             px-3 py-1.5 
+             h-10
+             rounded-lg 
+             text-xs font-medium 
+             hover:bg-gray-800 
+             transition-all duration-200 
+             shadow-sm hover:shadow`}
             >
-              Ajouter un mots +
+              Ajouter 
+              <Plus size={14} />
             </button>
           </div>
 

@@ -1,13 +1,16 @@
 import { BarChart3, BookOpen, FileText, Users } from "lucide-react";
-import { use, useEffect, useState } from "react";
+import { use, useEffect, useMemo, useState } from "react";
 import { NavLink } from "react-router";
 import data from "../assets/curentFile.json";
+import { defaultDictionary, type DictionaryType } from "../config/types";
 const nbrOfPostion = 4
 
 
 
 export default function GridMenu() {
     const [curentPosition, setcurentPosition] = useState(1)
+    const [dictionary, setDictionary] = useState<DictionaryType>({});
+
     useEffect(() => {
         if (!localStorage.getItem("db")) {
             localStorage.setItem("db", JSON.stringify(data));
@@ -17,15 +20,48 @@ export default function GridMenu() {
 
         if (!lastestPosition) {
             localStorage.setItem("latestPosition", "1");
-        }else{
+        } else {
             setcurentPosition(parseInt(lastestPosition))
         }
     }, []);
 
-    const changeCurentPositions = (position:number)=>{
+    useEffect(() => {
+        const dataStringify = localStorage.getItem("db");
+        const data = dataStringify ? JSON.parse(dataStringify) : defaultDictionary;
+        setDictionary(data);
+
+    }, []);
+
+    const changeCurentPositions = (position: number) => {
         setcurentPosition(position)
         localStorage.setItem("latestPosition", position.toString());
     }
+
+    const countWords = (dictionary: DictionaryType): number => {
+        return Object.values(dictionary).reduce((total, category) => {
+            return total + Object.keys(category).length;
+        }, 0);
+    };
+
+    const countCurentWords = (dictionary: DictionaryType, curentPosition: number): number => {
+        let count = 0;
+        Object.values(data).forEach((category: any) => {
+            Object.entries(category).forEach(([word, wordData]: any) => {
+                const meanings = wordData.meanings;
+                const position = wordData.position
+
+                if (wordData.position == curentPosition) {
+                    count++
+                }
+            })
+
+        })
+
+
+        return count
+    }
+    const nbrmots = countWords(dictionary);
+    const curentPositionNbrMots = useMemo(() => countCurentWords(dictionary, curentPosition) , [curentPosition]); 
 
 
     const menuItems = [
@@ -57,7 +93,7 @@ export default function GridMenu() {
                                         'bg-blue-500 text--500' :
                                         'bg-gray-300 text-white'
                                         } px-6 py-3 rounded-xl`}
-                                    onClick={()=>{
+                                    onClick={() => {
                                         changeCurentPositions(index + 1)
                                     }}
                                 >
@@ -69,6 +105,9 @@ export default function GridMenu() {
 
 
                     </div>
+                </div>
+                <div className=" mb-2">
+                    Total  {nbrmots} , position {curentPosition} : {curentPositionNbrMots }
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
                     {menuItems.map((item, index) => {

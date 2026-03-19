@@ -259,7 +259,7 @@ function Match() {
             </button>
             {
               Array.from({ length: Math.ceil(baseWordList.length / itemsPerPage) }, (_, i) => i + 1).map((pageNum) => (
-                <button key={pageNum} className={`${page === pageNum ? 'bg-blue-500 text-red-500' : 'bg-gray-900 text-black '} px-6 py-3 rounded-xl `} onClick={() => setPage(pageNum)}>
+                <button key={pageNum} className={`${page === pageNum ? 'bg-blue-500 text-red-500' : 'bg-gray-300 text-white'} px-6 py-3 rounded-xl `} onClick={() => setPage(pageNum)}>
                   {pageNum}
                 </button>
               ))
