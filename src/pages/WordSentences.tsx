@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { DictionaryType } from "../config/types";
 import { Info } from "lucide-react";
 
@@ -14,7 +14,7 @@ function getAllExamples(data: DictionaryType): string[] {
         // Parcours des mots
         Object.values(category).forEach(word => {
             const position = word.position
-            if(latestPosition && position !== parseInt(latestPosition) ) return
+            if (latestPosition && position !== parseInt(latestPosition)) return
             // Parcours des meanings
             word.meanings.forEach(meaning => {
 
@@ -66,7 +66,7 @@ const WordSentences = () => {
     const [sentenceList, setSentenceList] = useState<string[]>([]);
     const [wordList, setWordList] = useState<string[]>([]);
     const [inputValues, setInputValues] = useState<{ [key: string]: string }>({});
-    const [score, setScore] = useState(0);
+    //const [score, setScore] = useState(0);
     const [page, setPage] = useState(1);
     const itemsPerPage = 10;
 
@@ -89,11 +89,13 @@ const WordSentences = () => {
     }, [page, BaseSentenceList]);
 
 
-    useEffect(()=>{
-        console.log(inputValues);
-    },[inputValues])
+    const score = useMemo(() => {
+  return Object.entries(inputValues).reduce((total, [key, value]) => {
+    return key.slice(0, -2) === value ? total + 1 : total;
+  }, 0);
+}, [inputValues]);
 
-   
+
 
     const nextPage = () => {
         if (page * itemsPerPage >= BaseSentenceList.length) return;
@@ -104,17 +106,17 @@ const WordSentences = () => {
         setPage((prev) => Math.max(prev - 1, 1));
     }
 
-    const getClass = (word: string,i: number) => {
+    const getClass = (word: string, i: number) => {
 
         if (word[0] === "*") {
             word = word.replaceAll("*", "")?.toLocaleLowerCase();
         }
 
-        if (inputValues[word+i] === word?.toLowerCase()) {
+        if (inputValues[word + i] === word?.toLowerCase()) {
             return "border-2 border-green-500 bg-green-50 pt-3 pb-2 rounded-xl  items-center";
         }
 
-        const Findvalue = inputValues[word+i]?.toLowerCase() || "";
+        const Findvalue = inputValues[word + i]?.toLowerCase() || "";
 
 
         if ((Findvalue !== "") && (Findvalue !== word)) {
@@ -176,13 +178,13 @@ const WordSentences = () => {
                                                     key={i}
                                                     type="text"
                                                     onChange={(e) => {
-                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase()+i.toString()+index.toString()]: e.target.value }));
+                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase() + i.toString() + index.toString()]: e.target.value }));
                                                     }}
                                                     onBlur={(e) => {
-                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase()+i.toString()+index.toString()]: e.target.value }));
+                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase() + i.toString() + index.toString()]: e.target.value }));
                                                     }}
-                                                    value={inputValues[part.replaceAll("*", "")?.toLowerCase()+i.toString()+index.toString()]||""}
-                                                    className={getClass(part.replaceAll("*", "")?.toLowerCase(),parseInt(i.toString()+index.toString())) + " text-center"}
+                                                    value={inputValues[part.replaceAll("*", "")?.toLowerCase() + i.toString() + index.toString()] || ""}
+                                                    className={getClass(part.replaceAll("*", "")?.toLowerCase(), parseInt(i.toString() + index.toString())) + " text-center"}
                                                 />
                                             </span>
                                         </>
