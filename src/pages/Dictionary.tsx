@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { defaultDictionary, wordDefault, type DictionaryType } from "../config/types";
+import { defaultDictionary, wordDefault, type Category, type DictionaryType, type WordEntry } from "../config/types";
 import { MoveDown, Plus } from "lucide-react";
 //import dictionaryData from "../assets/curentFile.json";
 
@@ -11,6 +11,7 @@ const DictionaryPage = () => {
   const [jsonText, setJsonText] = useState("");
   const [isEditing, setIsEditing] = useState(false);
   const [isUpdating, setIsUpdating] = useState(false);
+  const [search, setSearch] = useState<string>("");
 
 
   useEffect(() => {
@@ -32,10 +33,36 @@ const DictionaryPage = () => {
     }
   }, [dictionary]);
 
-  const categories = useMemo(() => Object.keys(dictionary) || {}, [dictionary]);
+  const categories = useMemo(() => {
+    const tempCategories = Object.keys(dictionary) || [];
+    const firstCategory = Object.keys(dictionary)[0];
+
+    if (search) {
+      tempCategories.unshift(search)
+      setSelectedCategory(search)
+    } else {
+      if (firstCategory) {
+        setSelectedCategory(firstCategory);
+      }
+    }
+    return tempCategories;
+  }, [dictionary, search]);
   //const words = dictionary[selectedCategory] || {};
   //const words = useMemo(() => dictionary[selectedCategory] || [], [dictionary, selectedCategory]);
-  const words = useMemo(() => dictionary[selectedCategory] || {}, [dictionary, selectedCategory]);
+  const words = useMemo(() => {
+    if (!search) return dictionary[selectedCategory] || {}
+    let tempWord = {};
+    Object.values(dictionary).forEach((category: Category) => {
+      Object.entries(category).forEach(([word, wordData]: [string, WordEntry]) => {
+
+        if (word.includes(search)) {
+          tempWord = { ...tempWord, [word]: wordData };
+        }
+      })
+    });
+    return tempWord;
+
+  }, [dictionary, selectedCategory, search]);
 
   const addCategory = () => {
     if (!newCategory.trim()) {
@@ -185,6 +212,8 @@ const DictionaryPage = () => {
   };
 
 
+
+
   return (
     <div className=" flex bg-gray-50">
       {/* Sidebar */}
@@ -242,9 +271,19 @@ const DictionaryPage = () => {
 
       {/* Main Content */}
       <div className="flex-1 p-10 overflow-y-auto">
+
+        <div className="max-w-md mb-2">
+          <input
+            type="text"
+            placeholder="Rechercher..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="w-full px-4 py-2 border rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+
         <div className="flex mb-8">
           <h1 className="text-3xl font-bold  w-5/6">{selectedCategory}</h1>
-
           <div className="w-1/6 flex justify-between "  >
             <button
               onClick={downloadJSON}
@@ -258,7 +297,7 @@ const DictionaryPage = () => {
              transition-all duration-200 
              shadow-sm hover:shadow
              mr-3"
-             
+
             >
               Télécharger
               <MoveDown size={14} />
@@ -277,7 +316,7 @@ const DictionaryPage = () => {
              transition-all duration-200 
              shadow-sm hover:shadow`}
             >
-              Ajouter 
+              Ajouter
               <Plus size={14} />
             </button>
           </div>
