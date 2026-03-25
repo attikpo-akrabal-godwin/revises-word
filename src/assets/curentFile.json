@@ -142,6 +142,19 @@
       ],
       "translation": "a assisté à, a participé à",
       "position": 4
+    },
+    "tack on": {
+      "meanings": [
+        {
+          "definition": "to add something extra, often unexpectedly or inconveniently",
+          "examples": [
+            "The boss *tacked* *on* an extra presentation to the meeting.",
+            "Don’t just *tack* *on* tasks without letting the team know."
+          ]
+        }
+      ],
+      "translation": "ajouter, rajouter (souvent de manière inattendue ou gênante)",
+      "position": 5
     }
   },
   "Daily Life": {
@@ -1195,6 +1208,19 @@
       ],
       "translation": "lequel que ce soit",
       "position": 2
+    },
+    "on earth": {
+      "meanings": [
+        {
+          "definition": "used to add emphasis in questions or exclamations, showing surprise, confusion, or urgency",
+          "examples": [
+            "Who *on* *earth* left this mess ? ",
+            "why *on* *earth* did you make this choice ? it's by no means the wrong."
+          ]
+        }
+      ],
+      "translation": "diable, bon sang (pour insister dans une question/exclamation)",
+      "position": 5
     }
   },
   "Common expressions": {
@@ -1309,6 +1335,79 @@
         }
       ],
       "translation": "faire faillite, échouer complètement",
+      "position": 5
+    },
+    "a lot of aggro": {
+      "meanings": [
+        {
+          "definition": "a lot of trouble, stress, or conflict",
+          "examples": [
+            "That decision caused *a* *lot* *of* *aggro* in the team."
+          ]
+        }
+      ],
+      "translation": "beaucoup de problèmes, de stress ou de conflits",
+      "position": 5
+    },
+    "do your nut": {
+      "meanings": [
+        {
+          "definition": "to become very angry or lose your temper",
+          "examples": [
+            "The CEO *did* *his* *nut* when he heard about the oversight."
+          ]
+        }
+      ],
+      "translation": "se mettre très en colère, péter les plombs",
+      "position": 5
+    },
+    "i've got": {
+      "meanings": [
+        {
+          "definition": "to indicate possession",
+          "examples": [
+            "I’ve *got* a new phone."
+          ]
+        },
+        {
+          "definition": "to indicate having received something",
+          "examples": [
+            "I’ve *got* your email."
+          ]
+        },
+        {
+          "definition": "to indicate obligation or necessity (must)",
+          "examples": [
+            "I’ve *got* to finish this report."
+          ]
+        },
+        {
+          "definition": "to indicate understanding or realization",
+          "examples": [
+            "I’ve *got* the solution to this problem.",
+            "Oh, I’ve *got* it now!"
+          ]
+        },
+        {
+          "definition": "to indicate that something is completed or sorted",
+          "examples": [
+            "She’s *got* the schedule sorted."
+          ]
+        }
+      ],
+      "translation": "avoir ; recevoir ; devoir ; comprendre ; régler",
+      "position": 5
+    },
+    "what a nuisance": {
+      "meanings": [
+        {
+          "definition": "used to say that something or someone is annoying, inconvenient, or bothersome",
+          "examples": [
+            "What a *nuisance* ! The printer is jammed again."
+          ]
+        }
+      ],
+      "translation": "quel casse-tête, quelle nuisance, quelle corvée",
       "position": 5
     }
   },
