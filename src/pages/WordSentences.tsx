@@ -95,6 +95,8 @@ const WordSentences = () => {
   }, 0);
 }, [inputValues]);
 
+ 
+
 
 
     const nextPage = () => {

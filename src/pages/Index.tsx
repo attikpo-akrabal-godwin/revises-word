@@ -3,7 +3,7 @@ import { use, useEffect, useMemo, useState } from "react";
 import { NavLink } from "react-router";
 import data from "../assets/curentFile.json";
 import { defaultDictionary, type DictionaryType } from "../config/types";
-const nbrOfPostion = 4
+const nbrOfPostion = 5
 
 
 

@@ -288,7 +288,7 @@
         {
           "definition": "soft and easy to chew",
           "examples": [
-            "The meat is very *tender*."
+            "The meat is very *tender* ."
           ]
         }
       ],
@@ -1116,7 +1116,7 @@
         {
           "definition": "used to introduce a contrast with something that was just said",
           "examples": [
-            "The project was challenging. *Having* *said* *that* , *though*, we learned a lot.",
+            "The project was challenging. *Having* *said* *that* , *though* , we learned a lot.",
             "The job is demanding. *Having* *said* *that* , it is very rewarding."
           ]
         }
@@ -1317,8 +1317,8 @@
         {
           "definition": "to delay doing something intentionally or be slow because you do not want to do it",
           "examples": [
-            "My meighbor *drags* *their* *feet* to pay their rent",
-            "Don’t *drag* *your* *feet* we need to finish this today ."
+            "My meighbor *drags* *their* *feet* to pay their rent (to delay doing something intentionally)",
+            "Don’t *drag* *your* *feet* we need to finish this today . (to delay doing something intentionally)"
           ]
         }
       ],
@@ -1330,7 +1330,7 @@
         {
           "definition": "to fail completely, especially for a business to close or go bankrupt",
           "examples": [
-            "The startup *went belly up* after just one year."
+            "The startup *went* *belly* *up* after just one year."
           ]
         }
       ],
@@ -1342,7 +1342,7 @@
         {
           "definition": "a lot of trouble, stress, or conflict",
           "examples": [
-            "That decision caused *a* *lot* *of* *aggro* in the team."
+            "That decision caused *a* *lot* *of* *aggro* in the team. (a lot of trouble)"
           ]
         }
       ],
