@@ -155,6 +155,36 @@
       ],
       "translation": "ajouter, rajouter (souvent de manière inattendue ou gênante)",
       "position": 5
+    },
+    "pencil in": {
+      "meanings": [
+        {
+          "definition": "to make a temporary arrangement or plan that can be changed later",
+          "examples": [
+            "We *penciled* *in* the annual self-appraisal- for next Monday. (temporary arrangement) "
+          ]
+        }
+      ],
+      "translation": "prévoir provisoirement, planifier temporairement",
+      "position": 5
+    },
+    "tie up": {
+      "meanings": [
+        {
+          "definition": "to be busy or occupied",
+          "examples": [
+            "She’s *tied* *up* in a meeting at the moment."
+          ]
+        },
+        {
+          "definition": "to bind or fasten something physically",
+          "examples": [
+            "He *tied* *up* the packages with string."
+          ]
+        }
+      ],
+      "translation": "occupé, attaché",
+      "position": 5
     }
   },
   "Daily Life": {
@@ -293,6 +323,30 @@
         }
       ],
       "translation": "appel d’offre ; tendre, doux ; tendre (nourriture)",
+      "position": 5
+    },
+    "early": {
+      "meanings": [
+        {
+          "definition": "before the expected or usual time",
+          "examples": [
+            "I arrived *early* for the meeting."
+          ]
+        }
+      ],
+      "translation": "tôt, en avance",
+      "position": 5
+    },
+    "nearly": {
+      "meanings": [
+        {
+          "definition": "almost, but not completely",
+          "examples": [
+            "I *nearly* missed the bus."
+          ]
+        }
+      ],
+      "translation": "presque",
       "position": 5
     }
   },
@@ -446,13 +500,13 @@
         {
           "definition": "to think or believe something",
           "examples": [
-            "I reckon it's going to rain today."
+            "I reckon it's going to rain today. (to think)"
           ]
         },
         {
           "definition": "to calculate or estimate something",
           "examples": [
-            "The cost is *reckoned* to be around $100."
+            "The cost is *reckoned* to be around $100. (to calculate) "
           ]
         }
       ],
@@ -533,6 +587,26 @@
       ],
       "translation": "plus loin, promouvoir, supplémentaire",
       "position": 1
+    },
+    "bring": {
+      "meanings": [
+        {
+          "definition": "to take or carry something or someone to a place",
+          "examples": [
+            "Please *bring* your documents to the meeting.",
+            "She *brought* her laptop to the meeting."
+          ]
+        },
+        {
+          "definition": "to cause something to happen",
+          "examples": [
+            "This change will *bring* new opportunities.",
+            "The new policy *brought* positive changes."
+          ]
+        }
+      ],
+      "translation": "apporter, amener",
+      "position": 5
     }
   },
   "Concrete nouns": {
@@ -834,6 +908,32 @@
       ],
       "translation": "tarifs,billets",
       "position": 1
+    },
+    "behavior": {
+      "meanings": [
+        {
+          "definition": "the way a person acts or behaves",
+          "examples": [
+            "His *behavior* during the meeting was unprofessional.",
+            "you said you want to succeed, but your *behavior* says the opposite  (person acts)"
+          ]
+        }
+      ],
+      "translation": "comportement",
+      "position": 5
+    },
+    "boundaries": {
+      "meanings": [
+        {
+          "definition": "limits or borders that define what is allowed or where something ends",
+          "examples": [
+            "She set clear *boundaries* with her colleagues.",
+            "The map shows the *boundaries* between countries."
+          ]
+        }
+      ],
+      "translation": "limites, frontières",
+      "position": 5
     }
   },
   "Adjectives": {
@@ -1089,6 +1189,25 @@
       ],
       "translation": "relatable",
       "position": 2
+    },
+    "rigged": {
+      "meanings": [
+        {
+          "definition": "dishonestly arranged or manipulated to produce a desired result",
+          "examples": [
+            "The competition was *rigged* , so the result was unfair.",
+            "The elections were *rigged* , and it’s unfair- for the whole class."
+          ]
+        },
+        {
+          "definition": "prepared or set up in advance",
+          "examples": [
+            "The equipment was *rigged* before the event started."
+          ]
+        }
+      ],
+      "translation": "truqué, manipulé ; préparé",
+      "position": 5
     }
   },
   "Linking words": {
@@ -1166,7 +1285,7 @@
         {
           "definition": "at the beginning of something",
           "examples": [
-            "*At* *the* *outset* of the project, we set clear goals."
+            "*At* *the* *outset* of the project, we set clear goals. (at the beginning) "
           ]
         }
       ],
@@ -1220,6 +1339,24 @@
         }
       ],
       "translation": "diable, bon sang (pour insister dans une question/exclamation)",
+      "position": 5
+    },
+    "overall": {
+      "meanings": [
+        {
+          "definition": "in general, considering everything",
+          "examples": [
+            " *Overall* , the project was successful. (in general) "
+          ]
+        },
+        {
+          "definition": "general or total",
+          "examples": [
+            "The *overall* cost of the project is high. (total) "
+          ]
+        }
+      ],
+      "translation": "globalement, dans l’ensemble",
       "position": 5
     }
   },
@@ -1409,6 +1546,79 @@
       ],
       "translation": "quel casse-tête, quelle nuisance, quelle corvée",
       "position": 5
+    },
+    "do you mind": {
+      "meanings": [
+        {
+          "definition": "Usally used to ask for permission",
+          "examples": [
+            " *Do* *you* *mind*  if we take a break ? (ask for permission)"
+          ]
+        }
+      ],
+      "translation": "ça vous dérange ?",
+      "position": 5
+    },
+    "giving a hand": {
+      "meanings": [
+        {
+          "definition": "Help to do something , give someone a hand",
+          "examples": [
+            "After school , i *gave* *a* *hand* at home (give someone a hand)"
+          ]
+        }
+      ],
+      "translation": "Donner un coup de main",
+      "position": 5
+    },
+    "pick your brains ": {
+      "meanings": [
+        {
+          "definition": "to ask someone for advice, ideas, or information",
+          "examples": [
+            "Hey! Can i *pick* *your* *brain* for a minute"
+          ]
+        }
+      ],
+      "translation": " te solliciter",
+      "position": 5
+    },
+    "slip someone’s mind": {
+      "meanings": [
+        {
+          "definition": "to forget something temporarily",
+          "examples": [
+            "The project deadline has been fixed for late March, so the TVM declaration *slipped* *my* *mind* ."
+          ]
+        }
+      ],
+      "translation": "m’échapper de l’esprit, oublier momentanément",
+      "position": 5
+    },
+    "take a look": {
+      "meanings": [
+        {
+          "definition": "to examine or check something quickly",
+          "examples": [
+            "Let’s *take* *a* *look* at the report before the meeting."
+          ]
+        }
+      ],
+      "translation": "jeter un coup d’œil, examiner",
+      "position": 5
+    },
+    "at a pinch": {
+      "meanings": [
+        {
+          "definition": "if necessary, even though it is not ideal",
+          "examples": [
+            "This room can hold 10 people *at* *a* *pinch* .",
+            "My money can buy a Maybach or an S-Class *at* *a* *pinch* ."
+          ]
+        }
+      ],
+      "translation": "à la rigueur, si nécessaire",
+      "position": 5
     }
   },
   "Prépositions": {
@@ -1453,7 +1663,7 @@
         {
           "definition": "very nearly but not exactly or entirely",
           "examples": [
-            "The project is almost complete."
+            "The project is almost complete. (very nearly- )"
           ]
         }
       ],

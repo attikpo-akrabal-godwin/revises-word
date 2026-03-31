@@ -90,12 +90,17 @@ const WordSentences = () => {
 
 
     const score = useMemo(() => {
-  return Object.entries(inputValues).reduce((total, [key, value]) => {
-    return key.slice(0, -2) === value ? total + 1 : total;
-  }, 0);
-}, [inputValues]);
+        console.log(Object.keys(inputValues).length);
+        return Object.entries(inputValues).reduce((total, [key, value]) => {
+            return key.slice(0, -2) === value ? total + 1 : total;
+        }, 0);
+    }, [inputValues]);
 
- 
+    const totalGaps = useMemo(() => {
+        return BaseSentenceList.reduce((count, sentence) => {
+            return count + sentence.split(" ").filter(part => wordList.includes(part.toLowerCase()) || part[0] === "*").length;
+        }, 0);
+    }, [BaseSentenceList, wordList]);
 
 
 
@@ -108,7 +113,7 @@ const WordSentences = () => {
         setPage((prev) => Math.max(prev - 1, 1));
     }
 
-    const getClass = (word: string, i: number) => {
+    const getClass = (word: string, i: string) => {
 
         if (word[0] === "*") {
             word = word.replaceAll("*", "")?.toLocaleLowerCase();
@@ -149,11 +154,11 @@ const WordSentences = () => {
                 <div className="mb-8">
                     <div className="flex justify-between text-sm font-medium mb-2">
                         <p>Progress</p>
-                        <p className="text-blue-600">{Math.round((score / BaseSentenceList.length) * 100)}%</p>
+                        <p className="text-blue-600">{Math.round((score / totalGaps) * 100)}%</p>
                     </div>
-                    <p className="mb-2 font-semibold">{score} of {BaseSentenceList.length} matched</p>
+                    <p className="mb-2 font-semibold">{score} of {totalGaps} matched</p>
                     <div className="w-full bg-gray-200 rounded-full h-3">
-                        <div className="bg-blue-600 h-3 rounded-full" style={{ width: `${Math.round((score / BaseSentenceList.length) * 100)}%` }}></div>
+                        <div className="bg-blue-600 h-3 rounded-full" style={{ width: `${Math.round((score / totalGaps) * 100)}%` }}></div>
                     </div>
                 </div>
 
@@ -168,25 +173,25 @@ const WordSentences = () => {
                             <div key={index} className="mb-4 text-lg text-gray-700">
                                 {sentence.split(" ").map((part, i) => (
                                     ((!wordList.includes(part?.toLowerCase()))) && !(part[0] === "*") ? (
-                                        <span key={i} className="bg-yellow-200 px-1 rounded mr-2 p-3 ">
+                                        <span key={(i)} className="bg-yellow-200 px-1 rounded mr-2 p-3 ">
                                             {part}
                                         </span>) : (
                                         <>
                                             <Tooltip text={`${part}`}>
                                                 <Info className="cursor-pointer" size={15} />
                                             </Tooltip>
-                                            <span key={i} className="mr-2">
+                                            <span key={(i)} className="mr-2">
                                                 <input
-                                                    key={i}
+                                                    key={(i)}
                                                     type="text"
                                                     onChange={(e) => {
-                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase() + i.toString() + index.toString()]: e.target.value }));
+                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase() + (i).toString() + (index).toString()]: e.target.value }));
                                                     }}
                                                     onBlur={(e) => {
-                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase() + i.toString() + index.toString()]: e.target.value }));
+                                                        setInputValues(prev => ({ ...prev, [part.replaceAll("*", "")?.toLowerCase() + (i).toString() + (index).toString()]: e.target.value }));
                                                     }}
-                                                    value={inputValues[part.replaceAll("*", "")?.toLowerCase() + i.toString() + index.toString()] || ""}
-                                                    className={getClass(part.replaceAll("*", "")?.toLowerCase(), parseInt(i.toString() + index.toString())) + " text-center"}
+                                                    value={inputValues[part.replaceAll("*", "")?.toLowerCase() + (i).toString() + (index).toString()] || ""} 
+                                                    className={getClass(part.replaceAll("*", "")?.toLowerCase(), (i).toString() + (index).toString()) + " text-center"}
                                                 />
                                             </span>
                                         </>
