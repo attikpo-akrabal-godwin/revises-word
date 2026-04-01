@@ -185,6 +185,65 @@
       ],
       "translation": "occupé, attaché",
       "position": 5
+    },
+    "get down": {
+      "meanings": [
+        {
+          "definition": "to make someone feel sad or depressed",
+          "examples": [
+            "Don’t let this situation *get* *you* *down*."
+          ]
+        },
+        {
+          "definition": "to start doing something seriously",
+          "examples": [
+            "It’s time to *get* *down* *to* business."
+          ]
+        },
+        {
+          "definition": "to move downward or lower yourself",
+          "examples": [
+            "She *got* *down* on her knees.",
+            "The cat *got* *down* from the table."
+          ]
+        },
+        {
+          "definition": "to write something down",
+          "examples": [
+            "Did you *get* *down* everything the teacher said?",
+            "I *got* *down* the key points from the meeting."
+          ]
+        }
+      ],
+      "translation": "déprimer ; se mettre à ; descendre ; noter",
+      "position": 5
+    },
+    "get on": {
+      "meanings": [
+        {
+          "definition": "to have a good relationship with someone",
+          "examples": [
+            "I *get* *on* well with my colleagues.",
+            "She doesn’t *get* *on* *with* her manager.",
+            "They *get* *on* really well ."
+          ]
+        },
+        {
+          "definition": "to make progress or continue doing something",
+          "examples": [
+            "How are you *getting* *on* with your project?",
+            "We need to *get* *on* with the work."
+          ]
+        },
+        {
+          "definition": "to board or enter a form of transport",
+          "examples": [
+            "She *got on* the train just in time."
+          ]
+        }
+      ],
+      "translation": "bien s’entendre ; avancer ; monter (transport)",
+      "position": 5
     }
   },
   "Daily Life": {
@@ -934,6 +993,19 @@
       ],
       "translation": "limites, frontières",
       "position": 5
+    },
+    "relief": {
+      "meanings": [
+        {
+          "definition": "a feeling of comfort or relaxation after stress, worry, or pain disappears",
+          "examples": [
+            "It was a great *relief* to finish the task on time.",
+            "This cream gives quick *relief* from itching ."
+          ]
+        }
+      ],
+      "translation": "soulagement",
+      "position": 5
     }
   },
   "Adjectives": {
@@ -1207,6 +1279,42 @@
         }
       ],
       "translation": "truqué, manipulé ; préparé",
+      "position": 5
+    },
+    "outstanding": {
+      "meanings": [
+        {
+          "definition": "extremely good or impressive",
+          "examples": [
+            "The performance was *outstanding*."
+          ]
+        },
+        {
+          "definition": "not yet completed or paid",
+          "examples": [
+            "There are several *outstanding* tasks to complete."
+          ]
+        }
+      ],
+      "translation": "exceptionnel ; en suspens, impayé",
+      "position": 5
+    },
+    "itch": {
+      "meanings": [
+        {
+          "definition": "a feeling on the skin that makes you want to scratch",
+          "examples": [
+            "This sweater is *itching* my skin."
+          ]
+        },
+        {
+          "definition": "having a strong desire to do something",
+          "examples": [
+            "I’m *itching* *to* start this new project."
+          ]
+        }
+      ],
+      "translation": "démanger ; avoir très envie de",
       "position": 5
     }
   },
@@ -1571,18 +1679,6 @@
       "translation": "Donner un coup de main",
       "position": 5
     },
-    "pick your brains ": {
-      "meanings": [
-        {
-          "definition": "to ask someone for advice, ideas, or information",
-          "examples": [
-            "Hey! Can i *pick* *your* *brain* for a minute"
-          ]
-        }
-      ],
-      "translation": " te solliciter",
-      "position": 5
-    },
     "slip someone’s mind": {
       "meanings": [
         {
@@ -1618,6 +1714,43 @@
         }
       ],
       "translation": "à la rigueur, si nécessaire",
+      "position": 5
+    },
+    "pick your brains": {
+      "meanings": [
+        {
+          "definition": "to ask someone for advice, ideas, or information",
+          "examples": [
+            "Hey! Can i *pick* *your* *brain* for a minute"
+          ]
+        }
+      ],
+      "translation": " te solliciter",
+      "position": 5
+    },
+    "slip someone's mind": {
+      "meanings": [
+        {
+          "definition": "to forget something temporarily",
+          "examples": [
+            "The project deadline has been fixed for late March, so the TVM declaration *slipped* *my* *mind* ."
+          ]
+        }
+      ],
+      "translation": "m’échapper de l’esprit, oublier momentanément",
+      "position": 5
+    },
+    "straight away": {
+      "meanings": [
+        {
+          "definition": "immediately or without delay",
+          "examples": [
+            "I’ll call you *straight* *away* .",
+            "Please fix this issue *straight* *away* ."
+          ]
+        }
+      ],
+      "translation": "immédiatement, tout de suite",
       "position": 5
     }
   },
