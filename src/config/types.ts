@@ -9,6 +9,7 @@ export type WordEntry = {
   translation: string;
   position:number;
   meanings: Meaning[];
+  lastUpdated?: string ;
 };
 
 export type Category = {

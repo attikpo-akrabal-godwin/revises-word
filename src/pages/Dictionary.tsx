@@ -102,7 +102,12 @@ const DictionaryPage = () => {
 
   const saveJson = () => {
     try {
-      const parsed = JSON.parse(jsonText);
+      const parsed : Category = JSON.parse(jsonText);
+      const date = new Date();
+      const formattedDate = String(date.getDate()).padStart(2, '0') + '/' +
+                      String(date.getMonth() + 1).padStart(2, '0') + '/' +
+                      date.getFullYear();
+      parsed[Object.keys(parsed)[0]].lastUpdated = formattedDate;
       if (!isUpdating) {
         setDictionary((prev) => {
           prev[selectedCategory] = { ...prev[selectedCategory], ...parsed };
@@ -124,7 +129,7 @@ const DictionaryPage = () => {
           });
           return newDictionary;
         })
-        console.log([word, data])
+        //console.log([word, data])
         /* setDictionary((prev) => {
           return {
             ...prev,
