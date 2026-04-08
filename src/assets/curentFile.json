@@ -12,7 +12,8 @@
         }
       ],
       "translation": "se démarquer",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "carry out": {
       "meanings": [
@@ -24,7 +25,8 @@
         }
       ],
       "translation": "effectuer",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "come up": {
       "meanings": [
@@ -42,7 +44,8 @@
         }
       ],
       "translation": "survenir",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "point out": {
       "meanings": [
@@ -54,7 +57,8 @@
         }
       ],
       "translation": "faire remarquer",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "get by": {
       "meanings": [
@@ -66,7 +70,8 @@
         }
       ],
       "translation": "s'en sortir",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "to sort out": {
       "meanings": [
@@ -91,19 +96,8 @@
         }
       ],
       "translation": "trier, résoudre, organiser",
-      "position": 3
-    },
-    "to cope with": {
-      "meanings": [
-        {
-          "definition": "to deal successfully with a difficult situation",
-          "examples": [
-            "She learned how to *cope* *with* stress at work."
-          ]
-        }
-      ],
-      "translation": "faire face à, gérer",
-      "position": 23
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "cope with": {
       "meanings": [
@@ -115,7 +109,8 @@
         }
       ],
       "translation": "faire face à, gérer",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "come full circle": {
       "meanings": [
@@ -128,7 +123,8 @@
         }
       ],
       "translation": "revenir au point de départ, boucler la boucle",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "attended": {
       "meanings": [
@@ -141,7 +137,8 @@
         }
       ],
       "translation": "a assisté à, a participé à",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "tack on": {
       "meanings": [
@@ -154,7 +151,8 @@
         }
       ],
       "translation": "ajouter, rajouter (souvent de manière inattendue ou gênante)",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "pencil in": {
       "meanings": [
@@ -166,7 +164,8 @@
         }
       ],
       "translation": "prévoir provisoirement, planifier temporairement",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "tie up": {
       "meanings": [
@@ -184,7 +183,8 @@
         }
       ],
       "translation": "occupé, attaché",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "get down": {
       "meanings": [
@@ -216,7 +216,8 @@
         }
       ],
       "translation": "déprimer ; se mettre à ; descendre ; noter",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "get on": {
       "meanings": [
@@ -243,7 +244,27 @@
         }
       ],
       "translation": "bien s’entendre ; avancer ; monter (transport)",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
+    },
+    "get along": {
+      "meanings": [
+        {
+          "definition": "to have a good relationship with someone",
+          "examples": [
+            "I *get* *along* *well* *with* my coworkers."
+          ]
+        },
+        {
+          "definition": "to manage or make progress in a situation",
+          "examples": [
+            "How are you *getting* *along* in your new job?"
+          ]
+        }
+      ],
+      "translation": "bien s’entendre ; se débrouiller",
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     }
   },
   "Daily Life": {
@@ -257,7 +278,8 @@
         }
       ],
       "translation": " à côté de",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "hanging up the phone": {
       "meanings": [
@@ -269,7 +291,8 @@
         }
       ],
       "translation": "raccrocher le téléphone",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "a huge mess": {
       "meanings": [
@@ -283,7 +306,8 @@
         }
       ],
       "translation": "un énorme désordre, un chaos",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     }
   },
   "General Vocabulary": {
@@ -297,7 +321,8 @@
         }
       ],
       "translation": "réveillé",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "buried": {
       "meanings": [
@@ -310,7 +335,8 @@
         }
       ],
       "translation": "enterré",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "butt": {
       "meanings": [
@@ -322,7 +348,8 @@
         }
       ],
       "translation": "fesse , but de moquerie",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "joinery": {
       "meanings": [
@@ -334,7 +361,8 @@
         }
       ],
       "translation": "menuiserie",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "range from … to …": {
       "meanings": [
@@ -346,7 +374,8 @@
         }
       ],
       "translation": "aller de ... à ...",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "forefront": {
       "meanings": [
@@ -358,7 +387,8 @@
         }
       ],
       "translation": "premier plan",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "tender": {
       "meanings": [
@@ -382,7 +412,8 @@
         }
       ],
       "translation": "appel d’offre ; tendre, doux ; tendre (nourriture)",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "early": {
       "meanings": [
@@ -394,7 +425,8 @@
         }
       ],
       "translation": "tôt, en avance",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "nearly": {
       "meanings": [
@@ -406,7 +438,8 @@
         }
       ],
       "translation": "presque",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     }
   },
   "Action verbs": {
@@ -426,7 +459,8 @@
         }
       ],
       "translation": "évaluer",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "fulfill": {
       "meanings": [
@@ -438,7 +472,8 @@
         }
       ],
       "translation": "remplir",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "withdraw": {
       "meanings": [
@@ -456,7 +491,8 @@
         }
       ],
       "translation": "retirer",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "pick up": {
       "meanings": [
@@ -490,7 +526,8 @@
         }
       ],
       "translation": "ramasser, récupérer, apprendre, augmenter",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "arouse": {
       "meanings": [
@@ -504,7 +541,8 @@
         }
       ],
       "translation": "éveiller , susciter",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "attempt": {
       "meanings": [
@@ -516,7 +554,8 @@
         }
       ],
       "translation": "tenter",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "knock": {
       "meanings": [
@@ -528,7 +567,8 @@
         }
       ],
       "translation": "battre, frapper",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "involve": {
       "meanings": [
@@ -540,7 +580,8 @@
         }
       ],
       "translation": "impliquer",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "evolve": {
       "meanings": [
@@ -552,7 +593,8 @@
         }
       ],
       "translation": "évoluer",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "reckon": {
       "meanings": [
@@ -570,7 +612,8 @@
         }
       ],
       "translation": "penser, estimer , calculer",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "mislead": {
       "meanings": [
@@ -583,7 +626,8 @@
         }
       ],
       "translation": "induire en erreur, tromper",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "remain": {
       "meanings": [
@@ -596,7 +640,8 @@
         }
       ],
       "translation": "rester, demeurer",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "warn": {
       "meanings": [
@@ -608,7 +653,8 @@
         }
       ],
       "translation": "avertir, prévenir, mettre en garde",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "spreads": {
       "meanings": [
@@ -620,7 +666,8 @@
         }
       ],
       "translation": "se répandre",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "further": {
       "meanings": [
@@ -645,7 +692,8 @@
         }
       ],
       "translation": "plus loin, promouvoir, supplémentaire",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "bring": {
       "meanings": [
@@ -665,7 +713,8 @@
         }
       ],
       "translation": "apporter, amener",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     }
   },
   "Concrete nouns": {
@@ -679,7 +728,8 @@
         }
       ],
       "translation": "drap",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "stationery": {
       "meanings": [
@@ -691,7 +741,8 @@
         }
       ],
       "translation": "papeterie",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "showroom": {
       "meanings": [
@@ -703,7 +754,8 @@
         }
       ],
       "translation": "salle d'exposition",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "staircases": {
       "meanings": [
@@ -715,7 +767,8 @@
         }
       ],
       "translation": "escaliers",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "venue": {
       "meanings": [
@@ -727,7 +780,8 @@
         }
       ],
       "translation": "lieu",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "trade fair": {
       "meanings": [
@@ -739,7 +793,8 @@
         }
       ],
       "translation": "foire commerciale, salon professionnel",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     }
   },
   "abstract noums": {
@@ -753,7 +808,8 @@
         }
       ],
       "translation": "déclaration de mission",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "perks": {
       "meanings": [
@@ -765,7 +821,8 @@
         }
       ],
       "translation": "avantages",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "stockbroker": {
       "meanings": [
@@ -777,7 +834,8 @@
         }
       ],
       "translation": "courtier en valeurs mobilières",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "oversight": {
       "meanings": [
@@ -795,7 +853,8 @@
         }
       ],
       "translation": "oubli, erreur d’inattention ; supervision, contrôle",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "stuff": {
       "meanings": [
@@ -807,7 +866,8 @@
         }
       ],
       "translation": "choses, affaires, truc, substance",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "mettle": {
       "meanings": [
@@ -819,7 +879,8 @@
         }
       ],
       "translation": "courage, détermination, force de caractère",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "self-appraisal": {
       "meanings": [
@@ -831,7 +892,8 @@
         }
       ],
       "translation": "auto-évaluation professionnelle",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "crowd": {
       "meanings": [
@@ -844,7 +906,8 @@
         }
       ],
       "translation": "foule",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "gathering": {
       "meanings": [
@@ -862,7 +925,8 @@
         }
       ],
       "translation": "rassemblement, collecte",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "clues": {
       "meanings": [
@@ -874,7 +938,8 @@
         }
       ],
       "translation": "indices",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "quote": {
       "meanings": [
@@ -886,7 +951,8 @@
         }
       ],
       "translation": "citation",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "quotation": {
       "meanings": [
@@ -904,7 +970,8 @@
         }
       ],
       "translation": "citation",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "scheme": {
       "meanings": [
@@ -916,7 +983,8 @@
         }
       ],
       "translation": "plan, programme",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "undertaking": {
       "meanings": [
@@ -928,7 +996,8 @@
         }
       ],
       "translation": "entreprise, projet",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "purposes": {
       "meanings": [
@@ -942,7 +1011,8 @@
         }
       ],
       "translation": "objectifs",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "layout": {
       "meanings": [
@@ -954,7 +1024,8 @@
         }
       ],
       "translation": "disposition, aménagement",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "fares": {
       "meanings": [
@@ -966,7 +1037,8 @@
         }
       ],
       "translation": "tarifs,billets",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "behavior": {
       "meanings": [
@@ -979,7 +1051,8 @@
         }
       ],
       "translation": "comportement",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "boundaries": {
       "meanings": [
@@ -992,7 +1065,8 @@
         }
       ],
       "translation": "limites, frontières",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "relief": {
       "meanings": [
@@ -1005,7 +1079,8 @@
         }
       ],
       "translation": "soulagement",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     }
   },
   "Adjectives": {
@@ -1019,7 +1094,8 @@
         }
       ],
       "translation": "réticent, hésitant",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "subsequent": {
       "meanings": [
@@ -1032,7 +1108,8 @@
         }
       ],
       "translation": "ultérieur, suivant, subséquent",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "weathered": {
       "meanings": [
@@ -1050,7 +1127,8 @@
         }
       ],
       "translation": "surmonté ; usé par le temps",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "well-rounded": {
       "meanings": [
@@ -1063,7 +1141,8 @@
         }
       ],
       "translation": "polyvalent, complet, équilibré",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "reckless": {
       "meanings": [
@@ -1075,7 +1154,8 @@
         }
       ],
       "translation": "imprudent, irresponsable",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "probationary": {
       "meanings": [
@@ -1087,7 +1167,8 @@
         }
       ],
       "translation": "probatoire, période d’essai",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "suitable": {
       "meanings": [
@@ -1100,7 +1181,8 @@
         }
       ],
       "translation": "approprié, convenable",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "pleased": {
       "meanings": [
@@ -1112,7 +1194,8 @@
         }
       ],
       "translation": "content, satisfait",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "countless": {
       "meanings": [
@@ -1124,7 +1207,8 @@
         }
       ],
       "translation": "d’innombrables ",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "awkward": {
       "meanings": [
@@ -1137,7 +1221,8 @@
         }
       ],
       "translation": "gênant, difficile à gérer",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "odd": {
       "meanings": [
@@ -1149,7 +1234,8 @@
         }
       ],
       "translation": "bizarre, étrange",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "blurred": {
       "meanings": [
@@ -1163,7 +1249,8 @@
         }
       ],
       "translation": "flou",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "blurry": {
       "meanings": [
@@ -1175,7 +1262,8 @@
         }
       ],
       "translation": "flou",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "unfair": {
       "meanings": [
@@ -1187,7 +1275,8 @@
         }
       ],
       "translation": "injuste",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "sloppy": {
       "meanings": [
@@ -1199,7 +1288,8 @@
         }
       ],
       "translation": "négligent",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "neat": {
       "meanings": [
@@ -1211,7 +1301,8 @@
         }
       ],
       "translation": "soigné, ordonné ; astucieux ; pur (boisson)",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "thorough": {
       "meanings": [
@@ -1224,7 +1315,8 @@
         }
       ],
       "translation": "complet, minutieux, approfondi",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "prior": {
       "meanings": [
@@ -1236,7 +1328,8 @@
         }
       ],
       "translation": "préalable, antérieur, précédent",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "reliable": {
       "meanings": [
@@ -1248,7 +1341,8 @@
         }
       ],
       "translation": "fiable",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "relatable": {
       "meanings": [
@@ -1260,7 +1354,8 @@
         }
       ],
       "translation": "relatable",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "rigged": {
       "meanings": [
@@ -1279,7 +1374,8 @@
         }
       ],
       "translation": "truqué, manipulé ; préparé",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "outstanding": {
       "meanings": [
@@ -1297,7 +1393,8 @@
         }
       ],
       "translation": "exceptionnel ; en suspens, impayé",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "itch": {
       "meanings": [
@@ -1315,7 +1412,8 @@
         }
       ],
       "translation": "démanger ; avoir très envie de",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     }
   },
   "Linking words": {
@@ -1336,7 +1434,8 @@
         }
       ],
       "translation": "bien que, cependant",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "having said that though": {
       "meanings": [
@@ -1349,7 +1448,8 @@
         }
       ],
       "translation": "cela dit cependant, néanmoins",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "and so on": {
       "meanings": [
@@ -1361,7 +1461,8 @@
         }
       ],
       "translation": "etc., et ainsi de suite",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "by no means": {
       "meanings": [
@@ -1373,7 +1474,8 @@
         }
       ],
       "translation": "en aucun cas, certainement pas",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "indeed": {
       "meanings": [
@@ -1386,7 +1488,8 @@
         }
       ],
       "translation": "en effet, vraiment, assurément",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "At the outset": {
       "meanings": [
@@ -1398,7 +1501,8 @@
         }
       ],
       "translation": "au début",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "whoever": {
       "meanings": [
@@ -1410,7 +1514,8 @@
         }
       ],
       "translation": "quiconque",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "whatever": {
       "meanings": [
@@ -1422,7 +1527,8 @@
         }
       ],
       "translation": "quoi que ce soit",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "whichever": {
       "meanings": [
@@ -1434,7 +1540,8 @@
         }
       ],
       "translation": "lequel que ce soit",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "on earth": {
       "meanings": [
@@ -1447,7 +1554,8 @@
         }
       ],
       "translation": "diable, bon sang (pour insister dans une question/exclamation)",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "overall": {
       "meanings": [
@@ -1465,7 +1573,8 @@
         }
       ],
       "translation": "globalement, dans l’ensemble",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     }
   },
   "Common expressions": {
@@ -1482,7 +1591,8 @@
         }
       ],
       "translation": "m’a été très utile, m’a bien servi",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "a given": {
       "meanings": [
@@ -1494,7 +1604,8 @@
         }
       ],
       "translation": "une certitude, quelque chose de sûr",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "a problem shared is a problem halved": {
       "meanings": [
@@ -1506,7 +1617,8 @@
         }
       ],
       "translation": "un problème partagé est à moitié résolu",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "what are the odds": {
       "meanings": [
@@ -1519,7 +1631,8 @@
         }
       ],
       "translation": "quelles sont les chances, c’est peu probable",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "in my stride": {
       "meanings": [
@@ -1531,7 +1644,8 @@
         }
       ],
       "translation": "avec sérénité, sans se laisser perturber, avec philosophie",
-      "position": 3
+      "position": 3,
+      "lastUpdated": "19/03/2026"
     },
     "a face like a boot": {
       "meanings": [
@@ -1543,7 +1657,8 @@
         }
       ],
       "translation": "un visage laid (expression familière, insultante)",
-      "position": 4
+      "position": 4,
+      "lastUpdated": "26/03/2026"
     },
     "to hit the mark ": {
       "meanings": [
@@ -1555,7 +1670,8 @@
         }
       ],
       "translation": "atteindre l'objectif",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "drag your feet": {
       "meanings": [
@@ -1568,7 +1684,8 @@
         }
       ],
       "translation": "traîner les pieds, tarder volontairement",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "go belly up": {
       "meanings": [
@@ -1580,7 +1697,8 @@
         }
       ],
       "translation": "faire faillite, échouer complètement",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "a lot of aggro": {
       "meanings": [
@@ -1592,7 +1710,8 @@
         }
       ],
       "translation": "beaucoup de problèmes, de stress ou de conflits",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "do your nut": {
       "meanings": [
@@ -1604,7 +1723,8 @@
         }
       ],
       "translation": "se mettre très en colère, péter les plombs",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "i've got": {
       "meanings": [
@@ -1641,7 +1761,8 @@
         }
       ],
       "translation": "avoir ; recevoir ; devoir ; comprendre ; régler",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "what a nuisance": {
       "meanings": [
@@ -1653,7 +1774,8 @@
         }
       ],
       "translation": "quel casse-tête, quelle nuisance, quelle corvée",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "do you mind": {
       "meanings": [
@@ -1665,7 +1787,8 @@
         }
       ],
       "translation": "ça vous dérange ?",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "giving a hand": {
       "meanings": [
@@ -1677,7 +1800,8 @@
         }
       ],
       "translation": "Donner un coup de main",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "slip someone’s mind": {
       "meanings": [
@@ -1689,7 +1813,8 @@
         }
       ],
       "translation": "m’échapper de l’esprit, oublier momentanément",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "take a look": {
       "meanings": [
@@ -1701,7 +1826,8 @@
         }
       ],
       "translation": "jeter un coup d’œil, examiner",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "at a pinch": {
       "meanings": [
@@ -1714,7 +1840,8 @@
         }
       ],
       "translation": "à la rigueur, si nécessaire",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "pick your brains": {
       "meanings": [
@@ -1726,7 +1853,8 @@
         }
       ],
       "translation": " te solliciter",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "slip someone's mind": {
       "meanings": [
@@ -1738,7 +1866,8 @@
         }
       ],
       "translation": "m’échapper de l’esprit, oublier momentanément",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     },
     "straight away": {
       "meanings": [
@@ -1751,7 +1880,8 @@
         }
       ],
       "translation": "immédiatement, tout de suite",
-      "position": 5
+      "position": 5,
+      "lastUpdated": "02/04/2026"
     }
   },
   "Prépositions": {
@@ -1765,7 +1895,8 @@
         }
       ],
       "translation": "à l'intérieur de",
-      "position": 1
+      "position": 1,
+      "lastUpdated": "12/03/2026"
     },
     "towards": {
       "meanings": [
@@ -1777,7 +1908,8 @@
         }
       ],
       "translation": "vers",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "barely": {
       "meanings": [
@@ -1789,7 +1921,8 @@
         }
       ],
       "translation": "à peine",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     },
     "almost": {
       "meanings": [
@@ -1801,7 +1934,8 @@
         }
       ],
       "translation": "presque",
-      "position": 2
+      "position": 2,
+      "lastUpdated": "12/03/2026"
     }
   }
 }
